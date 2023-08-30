@@ -1,43 +1,56 @@
-import styled from 'styled-components'
+import styled from "styled-components";
+import colors from "../../colors";
 import { Link } from "react-router-dom";
-import LogoSrc from "../../assets/logo-small.png"
+import LogoSrc from "../../assets/logo-small.png";
 
 export const HeaderContainer = styled.section`
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	position: fixed;
-	top: 0;
-	width: 100vw;
-	background: grey;
-`
+  font-family: "Shrikhand";
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 8rem;
+  width: 100vw;
+  background: ${colors.dark};
+`;
 
 export const NavContainer = styled.div`
-	display: flex;
-	padding-right: 2rem;
-	gap: 2rem;
-`
+  display: flex;
+  padding-right: 2rem;
+  gap: 2rem;
+`;
 
 export const NavLinks = styled(Link)`
-	font-size: 1.3rem;
-	color: black;
+  font-size: 1.5rem;
+  color: black;
 
-	&:hover{
-		color: white;
-	}
-`
-
-export const LogoLink = styled(Link)`
-	display: flex;
-`
+  &:hover {
+    color: white;
+  }
+`;
 
 export const Logo = styled.img.attrs({
-	src: `${LogoSrc}`
+  src: `${LogoSrc}`,
 })`
-	height: 5rem;
-	padding: .6rem;
+  height: 6rem;
+  padding: 0.6rem;
+  border-radius: 2rem;
+`;
 
-	&:hover{
-		filter: drop-shadow(0 0 .5rem white);
-	}
-`
+export const LogoContainer = styled(Link)`
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+
+  &:hover {
+    filter: drop-shadow(0 0 0.5rem white);
+    cursor: pointer;
+  }
+`;
+
+export const HeaderTitle = styled.h2`
+  text-decoration: none;
+  padding-left: .8rem;
+  font-size: 2rem;
+  font-weight: 20;
+  color: black;
+`;

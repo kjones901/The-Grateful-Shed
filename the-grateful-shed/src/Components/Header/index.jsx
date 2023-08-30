@@ -1,17 +1,25 @@
-import { HeaderContainer, NavLinks, NavContainer, Logo, LogoLink } from "./styled";
+import {
+  HeaderContainer,
+  NavLinks,
+  NavContainer,
+  Logo,
+  LogoContainer,
+  HeaderTitle,
+} from "./styled";
 
 const Header = () => {
   return (
     <HeaderContainer>
-      <LogoLink to="/">
-        <Logo />
-      </LogoLink>
+      <LogoContainer to ="/">
+          <Logo />
+        <HeaderTitle>Mobile Grooming</HeaderTitle>
+      </LogoContainer>
       <NavContainer>
         <NavLinks to="/about">About</NavLinks>
-        <NavLinks to="/">Pricing</NavLinks>
-        <NavLinks to="/">Service Area</NavLinks>
-        <NavLinks to="/">Gallery</NavLinks>
-        <NavLinks to="/">Contact</NavLinks>
+        <NavLinks to="/pricing">Pricing</NavLinks>
+        <NavLinks to="/servicearea">Service Area</NavLinks>
+        <NavLinks to="/gallery">Gallery</NavLinks>
+        <NavLinks to="/contact">Contact</NavLinks>
       </NavContainer>
     </HeaderContainer>
   );

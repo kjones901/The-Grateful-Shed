@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import colors from '../../colors'
 
 
 
@@ -6,10 +7,10 @@ export const FooterContainer = styled.section`
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	position: fixed;
+	height: 10rem;
 	bottom: 0;
 	width: 100vw;
-	background: grey;
+	background: ${colors.dark};
 	padding: 1rem;
 `
 

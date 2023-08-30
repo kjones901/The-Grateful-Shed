@@ -3,8 +3,8 @@ import { FooterContainer, FooterText, FooterLink, FooterLinks } from "./styled";
 const Footer = () => {
   return (
     <FooterContainer>
-      <FooterText>801-696-2233</FooterText>
-      <FooterText>@2023 by The Grateful Shed</FooterText>
+      <FooterText>801-696-2233 - Call or Text to Book</FooterText>
+      <FooterText>The Grateful Shed - Mobile Grooming Serving Utah County</FooterText>
       <FooterLinks>
         <a href="https://www.instagram.com/thegratefulshedut/?hl=en">
           <FooterLink className="fab fa-instagram"></FooterLink>
