@@ -15,11 +15,10 @@ const Header = () => {
         <HeaderTitle>Mobile Grooming</HeaderTitle>
       </LogoContainer>
       <NavContainer>
-        <NavLinks to="/about">About</NavLinks>
-        <NavLinks to="/pricing">Pricing</NavLinks>
-        <NavLinks to="/servicearea">Service Area</NavLinks>
+        <NavLinks to="/">Home</NavLinks>
         <NavLinks to="/gallery">Gallery</NavLinks>
-        <NavLinks to="/contact">Contact</NavLinks>
+        <NavLinks to="/pricing">Pricing</NavLinks>
+        <NavLinks to="/about">About</NavLinks>
       </NavContainer>
     </HeaderContainer>
   );

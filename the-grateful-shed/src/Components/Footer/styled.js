@@ -10,7 +10,7 @@ export const FooterContainer = styled.section`
 	height: 10rem;
 	bottom: 0;
 	width: 100vw;
-	background: ${colors.dark};
+	background: ${colors.light};
 	padding: 1rem;
 `
 

@@ -10,7 +10,7 @@ export const HeaderContainer = styled.section`
   align-items: center;
   height: 8rem;
   width: 100vw;
-  background: ${colors.dark};
+  background: ${colors.light};
 `;
 
 export const NavContainer = styled.div`
@@ -24,7 +24,8 @@ export const NavLinks = styled(Link)`
   color: black;
 
   &:hover {
-    color: white;
+    filter: drop-shadow(0 0 0.1rem ${colors.green});
+    cursor: pointer;
   }
 `;
 
@@ -42,7 +43,7 @@ export const LogoContainer = styled(Link)`
   text-decoration: none;
 
   &:hover {
-    filter: drop-shadow(0 0 0.5rem white);
+    filter: drop-shadow(0 0 0.1rem ${colors.green});
     cursor: pointer;
   }
 `;

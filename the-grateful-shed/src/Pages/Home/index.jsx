@@ -1,14 +1,16 @@
 import Footer from "../../Components/Footer";
 import Header from "../../Components/Header";
-import { PageContainer, TextContainer } from "../pageStyled";
-import { Title, TitleContainer, Logo, TextAndImageContainer } from "./styled";
+import { PageContainer, TextContainer, TextAndImageContainer, TitleContainer, BannerTitle } from "../pageStyled";
+import { Logo } from "./styled";
+
 
 const Home = () => {
+
   return (
     <PageContainer>
       <Header />
       <TitleContainer>
-        <Title>THE GRATEFUL SHED</Title>
+        <BannerTitle>THE GRATEFUL SHED</BannerTitle>
       </TitleContainer>
       <TextAndImageContainer>
         <TextContainer>
