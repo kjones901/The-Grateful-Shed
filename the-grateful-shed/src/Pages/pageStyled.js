@@ -1,6 +1,6 @@
 import styled from "styled-components";
-import colors from "../colors";
-import BackgroundSrc from "../assets/groovy-background-blurred.png";
+// import colors from "../colors";
+
 
 export const PageContainer = styled.section`
   display: flex;
@@ -10,27 +10,16 @@ export const PageContainer = styled.section`
   position: absolute;
   top: 0;
   z-index: -1;
-  width: 90vw;
-`
-export const TitleContainer = styled.section`
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
   width: 100vw;
-  height: 20rem;
-  z-index: -1;
-  background-size: cover;
-  background-position: center;
-  background-image: url(${BackgroundSrc});
-`;
+  min-height: 100vh;
 
-export const BannerTitle = styled.h1`
-  font-family: "Shrikhand";
-  font-size: 8rem;
-  text-shadow: 0 0 50px black;
-  color: ${colors.lightest};
+  @media (max-width: 992px) {
+    flex-direction: column;
+    padding: 0px;
+    margin: 0px;
+  }
 `
+
 
 export const TextContainer = styled.div`
   display: flex;
@@ -40,10 +29,21 @@ export const TextContainer = styled.div`
   margin: 1rem;
   padding: 1rem;
   font-size: 1.5rem;
+
+  @media (max-width: 992px) {
+    max-width: 100vw;
+  }
 `;
 
 export const TextAndImageContainer = styled.div`
   display: flex;
+  width: 100vw;
+
+  @media (max-width: 992px) {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
 `
 
 export const Title = styled.h1`

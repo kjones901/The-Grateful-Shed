@@ -5,10 +5,15 @@ import LauraPic from "../../assets/laura.jpg";
 export const AboutContainer = styled.div`
   display: flex;
   align-items: center;
-  padding: 3rem;
   background-color: ${colors.green};
   width: 100vw;
-  min-height: 60vh;
+  min-height: 70vh;
+
+  @media (max-width: 992px) {
+    flex-direction: column;
+    padding: 0px;
+    margin: 0px;
+  }
   `;
 
 export const AboutPicBackground = styled.section`
@@ -17,16 +22,22 @@ export const AboutPicBackground = styled.section`
   justify-content: center;
   align-items: center;
   background-size: cover;
-  width: 80rem;
-  height: 20rem;
-  padding: 3rem;
-  margin-left: 6rem;
-  overflow: hidden;
-  border-radius: 15rem;
+  padding: 4rem;
+
+  @media (max-width: 992px) {
+    flex-direction: column;
+    padding: 2rem;
+    margin: 0px;
+  }
   `;
 
 export const AboutPicture = styled.img.attrs({ src: `${LauraPic}` })`
-  width: 450px;
+  width: 300px;
+  border-radius: 2rem;
+
+  @media (max-width: 992px) {
+    flex-direction: column;
+  }
   `;
 
 export const AboutMeTitle = styled.h1`
@@ -35,6 +46,10 @@ export const AboutMeTitle = styled.h1`
   font-size: 5rem;
   color: white;
   text-align: left;
+
+  @media (max-width: 992px) {
+    font-size: 3rem;
+  }
   `;
 
 export const AboutMeText = styled.div`
@@ -45,8 +60,15 @@ export const AboutMeText = styled.div`
   text-align: justify;
   color: white;
   margin: 1rem;
-  padding: 3rem;
+  padding: 5rem;
   font-size: 1.5rem;
+
+  @media (max-width: 992px) {
+    flex-direction: column;
+    padding: 2rem;
+    padding-bottom: 0px;
+    margin: 0px;
+  }
   `;
 
 export const PageContainer = styled.div`
@@ -61,4 +83,8 @@ export const PageContainer = styled.div`
 export const PawIcon = styled.i.attrs({ className:"fa-solid fa-paw"})`
 	color: white;
 	font-size: 6rem;
+
+  @media (max-width: 992px) {
+    font-size: 4rem;
+  }
 `

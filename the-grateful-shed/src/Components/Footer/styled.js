@@ -7,11 +7,11 @@ export const FooterContainer = styled.section`
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	height: 10rem;
+	justify-content: center;
+	height: 20vh;
 	bottom: 0;
 	width: 100vw;
 	background: ${colors.light};
-	padding: 1rem;
 `
 
 export const FooterText = styled.div`

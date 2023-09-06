@@ -15,9 +15,6 @@ const About = () => {
     <PageContainer>
       <Header />
       <AboutContainer>
-        <AboutPicBackground>
-          <AboutPicture />
-        </AboutPicBackground>
         <AboutMeText>
           <AboutMeTitle>
             <PawIcon /> Hi, I&apos;m Laura
@@ -29,6 +26,9 @@ const About = () => {
           fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
           culpa qui officia deserunt mollit anim id est laborum.
         </AboutMeText>
+        <AboutPicBackground>
+          <AboutPicture />
+        </AboutPicBackground>
       </AboutContainer>
       <Footer />
     </PageContainer>

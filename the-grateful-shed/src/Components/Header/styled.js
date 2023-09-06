@@ -8,15 +8,30 @@ export const HeaderContainer = styled.section`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 8rem;
+  min-height: 15vh;
   width: 100vw;
   background: ${colors.light};
+
+  @media (max-width: 992px) {
+    flex-direction: column;
+    width: 100vw;
+    padding: 0px;
+    margin: 0px;
+  }
 `;
 
 export const NavContainer = styled.div`
   display: flex;
   padding-right: 2rem;
   gap: 2rem;
+  justify-content: center;
+  align-items: center;
+
+  @media (max-width: 992px) {
+    padding: 1rem;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
 `;
 
 export const NavLinks = styled(Link)`
@@ -26,6 +41,12 @@ export const NavLinks = styled(Link)`
   &:hover {
     filter: drop-shadow(0 0 0.1rem ${colors.green});
     cursor: pointer;
+  }
+
+  @media (max-width: 992px) {
+    width: 90vw;
+    border: 2px solid black;
+    border-radius: 0.3rem;
   }
 `;
 
@@ -46,12 +67,21 @@ export const LogoContainer = styled(Link)`
     filter: drop-shadow(0 0 0.1rem ${colors.green});
     cursor: pointer;
   }
+
+  @media (max-width: 992px) {
+    width: 100vw;
+    background-color: ${colors.dark};
+  }
 `;
 
 export const HeaderTitle = styled.h2`
   text-decoration: none;
-  padding-left: .8rem;
+  padding: 0.8rem;
   font-size: 2rem;
   font-weight: 20;
   color: black;
+
+  @media (max-width: 992px) {
+    font-size: 1.5rem;
+  }
 `;

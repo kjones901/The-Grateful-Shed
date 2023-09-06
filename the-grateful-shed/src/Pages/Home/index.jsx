@@ -1,7 +1,7 @@
 import Footer from "../../Components/Footer";
 import Header from "../../Components/Header";
-import { PageContainer, TextContainer, TextAndImageContainer, TitleContainer, BannerTitle } from "../pageStyled";
-import { Logo } from "./styled";
+import { PageContainer, TextContainer, TextAndImageContainer} from "../pageStyled";
+import { Logo, TitleContainer, BannerTitle  } from "./styled";
 
 
 const Home = () => {

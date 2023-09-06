@@ -1,18 +1,14 @@
-import { FooterContainer, FooterText, FooterLink, FooterLinks } from "./styled";
+import { FooterContainer, FooterText, FooterLink} from "./styled";
 
 const Footer = () => {
   return (
     <FooterContainer>
-      <FooterText>801-696-2233 - Call or Text to Book</FooterText>
-      <FooterText>The Grateful Shed - Mobile Grooming Serving Utah County</FooterText>
-      <FooterLinks>
+      <FooterText>Call or Text to Book: 801-696-2233</FooterText>
+      <FooterText>The Grateful Shed - Serving South Utah County</FooterText>
+      <FooterText>&quot;Stay Trippy, Little Yippy&quot;</FooterText>
         <a href="https://www.instagram.com/thegratefulshedut/?hl=en">
           <FooterLink className="fab fa-instagram"></FooterLink>
         </a>
-        <a href="/">
-          <FooterLink className="fab fa-facebook"></FooterLink>
-        </a>
-      </FooterLinks>
     </FooterContainer>
   );
 };
