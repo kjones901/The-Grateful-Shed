@@ -3,7 +3,7 @@ import Home from "./Pages/Home";
 import About from "./Pages/About";
 import Pricing from "./Pages/Pricing";
 import Gallery from "./Pages/Gallery";
-import "./app.css";
+import "./App.css";
 
 function App() {
   return (
