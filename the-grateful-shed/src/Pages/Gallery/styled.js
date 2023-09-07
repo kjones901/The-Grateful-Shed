@@ -11,7 +11,7 @@ export const GalleryBackground = styled.section`
   z-index: -1;
   width: 100vw;
   min-height: 100vh;
-  background-image: linear-gradient(to bottom, ${colors.green}, ${colors.light}, ${colors.green});
+  background-image: linear-gradient(to bottom, ${colors.green}, ${colors.light});
 `
 
 export const GalleryTitle = styled.h1`
@@ -20,6 +20,10 @@ export const GalleryTitle = styled.h1`
   font-size: 5rem;
   color: white;
   padding-top: 2.5rem;
+`
+
+export const GallerySubtitle = styled.h2`
+  color: white;
 `
 
 export const GalleryCard = styled.div`
@@ -43,5 +47,4 @@ export const BeforeImg = styled.img`
 export const AfterImg = styled.img`
   width: 50%;
   border-radius: 5px;
-  /* border-left: 10px solid ${colors.red}; */
 `;

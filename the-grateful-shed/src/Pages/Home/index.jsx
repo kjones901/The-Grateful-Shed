@@ -43,7 +43,7 @@ const Home = () => {
             Now Accepting Clients from Provo to Santaquin.
             <br />
             <br />
-            <br />* Discounts avaible if you&apos;d prefer to bring your dog to Payson.
+            <br />* Discounts available if you&apos;d prefer to bring your dog to Payson.
           </TextContainer>
         </ServiceTextContainer>
         <ServiceMap src={Map} />

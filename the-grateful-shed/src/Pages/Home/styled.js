@@ -2,7 +2,7 @@ import styled from "styled-components";
 import colors from "../../colors";
 
 import LogoImg from "../../assets/logo.png";
-import BackgroundSrc from "../../assets/groovy-background-blurred.png";
+import BackgroundSrc from "../../assets/background-groovy-blurred.png";
 
 export const TitleContainer = styled.section`
   display: flex;
@@ -10,7 +10,7 @@ export const TitleContainer = styled.section`
   align-items: center;
   justify-content: center;
   width: 100vw;
-  height: 15rem;
+  height: 20vh;
   z-index: -1;
   background-size: cover;
   background-position: center;
@@ -23,25 +23,11 @@ export const TitleContainer = styled.section`
 
 export const BannerTitle = styled.h1`
   font-family: "Shrikhand";
-  font-size: 6rem;
+  font-size: 8vw;
   text-size-adjust: 90%;
-  text-shadow: 0 0 50px black;
+  text-shadow: 0 0 30px black;
   color: ${colors.lightest};
 
-  @media (max-width: 1200px) {
-    font-size: 5rem;
-    text-shadow: 0 0 50px black;
-  }
-
-  @media (max-width: 992px) {
-    font-size: 3rem;
-    text-shadow: 0 0 50px black;
-  }
-
-  @media (max-width: 550px) {
-    font-size: 2rem;
-    text-shadow: 0 0 50px black;
-  }
 `;
 
 export const Logo = styled.img.attrs({
@@ -62,7 +48,7 @@ export const MapContainer = styled.div`
   display: flex;
   justify-content: space-evenly;
   width: 80vw;
-  background-color: ${colors.green};
+  background-color: ${colors.lightest};
   border-radius: 1rem;
   margin: 3rem;
 
@@ -90,8 +76,6 @@ export const ServiceTextContainer = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
-  color: white;
-  
 `;
 
 export const ServiceTitle = styled.h1`
