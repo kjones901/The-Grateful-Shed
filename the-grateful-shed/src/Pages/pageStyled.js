@@ -27,7 +27,7 @@ export const TextContainer = styled.div`
   align-items: center;
   justify-content: center;
   margin: 1rem;
-  padding: 1rem;
+  padding: 2rem;
   font-size: 1.5rem;
 
   @media (max-width: 992px) {
@@ -37,7 +37,8 @@ export const TextContainer = styled.div`
 
 export const TextAndImageContainer = styled.div`
   display: flex;
-  width: 100vw;
+  width: 95vw;
+  margin-top: 2rem;
 
   @media (max-width: 992px) {
     flex-direction: column;
@@ -51,6 +52,7 @@ export const Title = styled.h1`
   font-weight: lighter;
   font-size: 3rem;
   color: black;
+  padding-top: 1rem;
 `
 
 export const Subheading = styled.h3`

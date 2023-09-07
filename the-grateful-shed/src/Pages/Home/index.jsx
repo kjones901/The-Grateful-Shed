@@ -1,11 +1,22 @@
 import Footer from "../../Components/Footer";
 import Header from "../../Components/Header";
-import { PageContainer, TextContainer, TextAndImageContainer} from "../pageStyled";
-import { Logo, TitleContainer, BannerTitle  } from "./styled";
-
+import {
+  PageContainer,
+  TextContainer,
+  TextAndImageContainer,
+} from "../pageStyled";
+import {
+  Logo,
+  TitleContainer,
+  BannerTitle,
+  ServiceMap,
+  MapContainer,
+  ServiceTextContainer,
+  ServiceTitle,
+} from "./styled";
+import Map from "../../assets/service-area-map.png";
 
 const Home = () => {
-
   return (
     <PageContainer>
       <Header />
@@ -23,6 +34,20 @@ const Home = () => {
         </TextContainer>
         <Logo />
       </TextAndImageContainer>
+      <MapContainer>
+        <ServiceTextContainer>
+          <ServiceTitle>Service Area</ServiceTitle>
+          <TextContainer>
+            Based out of Payson, UT.
+            <br />
+            Now Accepting Clients from Provo to Santaquin.
+            <br />
+            <br />
+            <br />* Discounts avaible if you&apos;d prefer to bring your dog to Payson.
+          </TextContainer>
+        </ServiceTextContainer>
+        <ServiceMap src={Map} />
+      </MapContainer>
       <Footer />
     </PageContainer>
   );
