@@ -45,6 +45,10 @@ export const TextAndImageContainer = styled.div`
     align-items: center;
     justify-content: center;
   }
+
+  @media (max-width: 550px) {
+    margin-top: 80px;
+  }
 `
 
 export const Title = styled.h1`

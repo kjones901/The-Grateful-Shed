@@ -1,10 +1,6 @@
 import Footer from "../../Components/Footer";
 import Header from "../../Components/Header";
-import {
-  PageContainer,
-  TextContainer,
-  TextAndImageContainer,
-} from "../pageStyled";
+import { PageContainer, TextContainer, TextAndImageContainer } from "../pageStyled";
 import {
   Logo,
   TitleContainer,
@@ -14,6 +10,9 @@ import {
   ServiceTextContainer,
   ServiceTitle,
   SmallScreenBannerTitle,
+  SmallLogo,
+  SmallLogoWrapper,
+  SmallScreenBannerTitleWrapper,
 } from "./styled";
 import Map from "../../assets/service-area-map.png";
 
@@ -23,7 +22,14 @@ const Home = () => {
       <Header />
       <TitleContainer>
         <BannerTitle>THE GRATEFUL SHED</BannerTitle>
-        <SmallScreenBannerTitle>THE <br/> GRATEFUL SHED</SmallScreenBannerTitle>
+        <SmallScreenBannerTitleWrapper>
+          <SmallScreenBannerTitle>
+            THE <br /> GRATEFUL <br /> SHED
+          </SmallScreenBannerTitle>
+        </SmallScreenBannerTitleWrapper>
+        <SmallLogoWrapper>
+          <SmallLogo />
+        </SmallLogoWrapper>
       </TitleContainer>
       <TextAndImageContainer>
         <TextContainer>

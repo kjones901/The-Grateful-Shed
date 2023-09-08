@@ -22,20 +22,26 @@ export const TitleContainer = styled.section`
 
   @media (max-width: 550px) {
     height: 23vh;
+    text-align: left;
+    align-items: flex-start;
   }
+`;
+
+export const SmallScreenBannerTitleWrapper = styled.div`
+  padding-left: 1.5rem;
 `;
 
 export const SmallScreenBannerTitle = styled.h1`
   display: none;
   font-family: "Shrikhand";
-  font-size: 8vw;
   text-shadow: 0 0 30px black;
   color: ${colors.lightest};
 
   @media (max-width: 550px) {
     display: contents;
     font-size: 10vw;
-  }
+    margin-left: 3rem;
+}
 `;
 
 export const BannerTitle = styled.h1`
@@ -57,9 +63,35 @@ export const Logo = styled.img.attrs({
   padding: 1rem;
 
   @media (max-width: 992px) {
+    display: none;
     height: 23rem;
     width: 22rem;
     padding: 0.5rem;
+  }
+`;
+
+export const SmallLogoWrapper = styled.div`
+  display: none;
+  position: absolute;
+  right: 35px;
+  margin-top: 240px;
+  border: 3px solid black;
+  border-radius: 5px;
+
+  @media (max-width: 550px) {
+    display: block;
+  }
+`;
+
+export const SmallLogo = styled.img.attrs({
+  src: `${LogoImg}`,
+})`
+  height: 25rem;
+  width: 24rem;
+
+  @media (max-width: 550px) {
+    height: 10rem;
+    width: 9rem;
   }
 `;
 
