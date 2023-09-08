@@ -30,6 +30,8 @@ export const PriceContainer = styled.div`
   justify-content: space-between;
   width: 90vw;
   margin-bottom: 2rem;
+  background-color: ${colors.lightest};
+  border-radius: 1rem;
 `;
 
 export const DogSize = styled.h1`
@@ -50,6 +52,7 @@ export const PriceTextContainer = styled.div`
   display: flex;
   flex-direction: column;
   width: 70%;
+  padding: 1rem;
 
   @media (max-width: 992px) {
     width: 100vw;
@@ -151,6 +154,10 @@ export const AboutText = styled.h3`
   padding: 1rem;
 `
 
+export const AboutTextSub = styled.h5`
+  margin-bottom: 1rem;
+`
+
 export const PolicyTitle = styled.h1`
   font-family: "Shrikhand";
   font-weight: lighter;
@@ -164,12 +171,11 @@ export const PolicyContainer = styled.div`
   flex-direction: column;
   justify-content: space-evenly;
   width: 80vw;
-  background-color: ${colors.lightest};
-  border-radius: 1rem;
-  margin: 3rem;
+  margin-bottom: 1rem;
 
   @media (max-width: 992px) {
     align-items: center;
     justify-content: center;
   }
 `
+

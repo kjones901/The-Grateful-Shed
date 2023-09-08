@@ -6,6 +6,7 @@ import MedDogImg from "../../assets/pricing-medium-dog.jpeg";
 import LargeDogImg from "../../assets/pricing-large-dog.jpeg";
 import {
   AboutText,
+  AboutTextSub,
   DogSize,
   ImageContainer,
   PawIcon,
@@ -28,7 +29,7 @@ const Pricing = () => {
     <PageContainer>
       <Header />
       <AboutText>By appointment only: CALL or TEXT to book - 801-696-2233</AboutText>
-      <h5>* Additional charges may apply for poodle mixes.</h5>
+      <AboutTextSub>* Additional charges may apply for poodle mixes.</AboutTextSub>
       <PriceContainer>
         <ImageContainer>
           <SizeImage src={SmallDogImg} />

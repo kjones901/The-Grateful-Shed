@@ -26,8 +26,8 @@ export const TextContainer = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin: 1rem;
   padding: 2rem;
+  padding-top: 1rem;
   font-size: 1.5rem;
 
   @media (max-width: 992px) {
