@@ -94,6 +94,20 @@ export const SmallLogo = styled.img.attrs({
   }
 `;
 
+export const HomeTextContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  padding-top: 4rem;
+  font-size: 1.5rem;
+
+  @media (max-width: 992px) {
+    max-width: 100vw;
+  }
+`;
+
 export const MapContainer = styled.div`
   display: flex;
   justify-content: space-evenly;
