@@ -89,11 +89,7 @@ export const SmallLogoWrapper = styled.div`
 export const SmallLogo = styled.img.attrs({
   src: `${LogoImg}`,
 })`
-  height: 25rem;
-  width: 24rem;
-
   @media (max-width: 550px) {
-    height: 10rem;
     width: 9rem;
   }
 `;
