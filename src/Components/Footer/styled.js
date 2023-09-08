@@ -8,7 +8,7 @@ export const FooterContainer = styled.section`
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	height: 20vh;
+	height: 25vh;
 	bottom: 0;
 	width: 100vw;
 	background: ${colors.light};
@@ -18,9 +18,11 @@ export const FooterText = styled.div`
 	font-weight: 700;
 	padding: .3rem;
 	color: black;
-`
-export const FooterLinks = styled.div`
-	
+
+@media (max-width: 550px) {
+	flex-direction: column;
+	font-size: 3.3vw;
+  }
 `
 
 export const FooterLink = styled.i`
@@ -32,5 +34,6 @@ export const FooterLink = styled.i`
 		color: white;
 	}
 `
+
 
 

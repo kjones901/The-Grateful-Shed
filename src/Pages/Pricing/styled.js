@@ -40,6 +40,10 @@ export const DogSize = styled.h1`
   @media (max-width: 992px) {
     font-size: 4vw;
   }
+
+  @media (max-width: 550px) {
+    font-size: 5vw;
+  }
 `;
 
 export const PriceTextContainer = styled.div`
@@ -73,6 +77,11 @@ export const ServiceTitle = styled.h1`
     padding: 0px;
     font-size: 3vw;
   }
+
+  @media (max-width: 550px) {
+    font-size: 3.5vw;
+    border: none;
+  }
 `;
 
 export const ServiceDetails = styled.ul`
@@ -90,6 +99,11 @@ export const Price = styled.h4`
 
   @media (max-width: 992px) {
     font-size: 3vw;
+    border: none;
+  }
+
+  @media (max-width: 550px) {
+    font-size: 3.5vw;
     border: none;
   }
 `;
@@ -123,12 +137,12 @@ export const ServiceListItem = styled.li`
   padding: 0.7rem;
 
   @media (max-width: 992px) {
-    font-size: 2vw;
+    font-size: 2.2vw;
     padding: 0.2rem;
   }
 
   @media (max-width: 550px) {
-    font-size: 2.5vw;
+    font-size: 3vw;
     padding: 0.2rem;
   }
 `;

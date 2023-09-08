@@ -19,15 +19,34 @@ export const TitleContainer = styled.section`
   @media (max-width: 992px) {
     height: 7rem;
   }
+
+  @media (max-width: 550px) {
+    height: 23vh;
+  }
+`;
+
+export const SmallScreenBannerTitle = styled.h1`
+  display: none;
+  font-family: "Shrikhand";
+  font-size: 8vw;
+  text-shadow: 0 0 30px black;
+  color: ${colors.lightest};
+
+  @media (max-width: 550px) {
+    display: contents;
+    font-size: 10vw;
+  }
 `;
 
 export const BannerTitle = styled.h1`
   font-family: "Shrikhand";
   font-size: 8vw;
-  text-size-adjust: 90%;
   text-shadow: 0 0 30px black;
   color: ${colors.lightest};
 
+  @media (max-width: 550px) {
+    display: none;
+  }
 `;
 
 export const Logo = styled.img.attrs({

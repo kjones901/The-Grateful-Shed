@@ -13,6 +13,7 @@ import {
   MapContainer,
   ServiceTextContainer,
   ServiceTitle,
+  SmallScreenBannerTitle,
 } from "./styled";
 import Map from "../../assets/service-area-map.png";
 
@@ -22,6 +23,7 @@ const Home = () => {
       <Header />
       <TitleContainer>
         <BannerTitle>THE GRATEFUL SHED</BannerTitle>
+        <SmallScreenBannerTitle>THE <br/> GRATEFUL SHED</SmallScreenBannerTitle>
       </TitleContainer>
       <TextAndImageContainer>
         <TextContainer>
