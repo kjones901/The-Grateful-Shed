@@ -34,14 +34,14 @@ export const SmallScreenBannerTitleWrapper = styled.div`
 export const SmallScreenBannerTitle = styled.h1`
   display: none;
   font-family: "Shrikhand";
-  text-shadow: 0 0 30px black;
+  text-shadow: 0 0 10px black;
   color: ${colors.lightest};
 
   @media (max-width: 550px) {
     display: contents;
     font-size: 10vw;
     margin-left: 3rem;
-}
+  }
 `;
 
 export const BannerTitle = styled.h1`
@@ -63,10 +63,13 @@ export const Logo = styled.img.attrs({
   padding: 1rem;
 
   @media (max-width: 992px) {
-    display: none;
     height: 23rem;
     width: 22rem;
     padding: 0.5rem;
+  }
+
+  @media (max-width: 550px) {
+    display: none;
   }
 `;
 
