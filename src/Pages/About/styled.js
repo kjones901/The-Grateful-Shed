@@ -55,7 +55,6 @@ export const AboutMeTitle = styled.h1`
 export const AboutMeText = styled.div`
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
   text-align: justify;
   color: white;

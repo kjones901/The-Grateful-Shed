@@ -17,14 +17,17 @@ const About = () => {
       <AboutContainer>
         <AboutMeText>
           <AboutMeTitle>
-            <PawIcon /> Hi, I&apos;m Laura
+            <PawIcon /> Hi,
           </AboutMeTitle>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-          incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-          nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-          Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-          fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum.
+          I would like to introduce myself. My name is Laura Hartman and I L❤️VE DOGS!
+          According to my Mom, the first word I ever spoke was Dog! I deeply love all
+          animals and considered becoming a veterinarian.<br/><br/> I followed a different path and
+          became a nurse. I have worked in the operating room helping to heal people for
+          close to 30 years. I am so excited and pleased to announce that I have
+          started a whole new chapter in my healing caregiver role. I&apos;ve switched my focus
+          back to dogs. I want to help dogs live their happiest, healthiest, most stylish
+          lives possible!<br/><br/> When your beloved furry friend is in my care they will be
+          treated with love just like my own dog Odin. ❤️🐶❤️
         </AboutMeText>
         <AboutPicBackground>
           <AboutPicture />
