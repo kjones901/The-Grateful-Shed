@@ -4,6 +4,7 @@ import { PageContainer, TextContainer, TextAndImageContainer } from "../pageStyl
 import {
   Logo,
   TitleContainer,
+  BusImage,
   BannerTitle,
   ServiceMap,
   MapContainer,
@@ -16,6 +17,7 @@ import {
   HomeTextContainer,
 } from "./styled";
 import Map from "../../assets/service-area-map.png";
+import BusImg from "../../assets/bus-img-wide2.jpg";
 
 const Home = () => {
   return (
@@ -34,12 +36,13 @@ const Home = () => {
       </TitleContainer>
       <TextAndImageContainer>
         <HomeTextContainer>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-          incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-          nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-          Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-          fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum.
+          &quot;The Grateful Shed&quot; – where convenience meets canine comfort. With a
+          freshly renovated and roomy mobile dog bus, I offer nothing short of top of the
+          line pampering for your beloved four-legged friend, no matter their size. My
+          mission goes beyond just bringing grooming to your doorstep; it&apos;s about
+          providing the undivided attention and personalized care that your cherished
+          companion deserves. Welcome to a world of tail-wagging transformations and a
+          truly grateful pup.
         </HomeTextContainer>
         <Logo />
       </TextAndImageContainer>
@@ -57,6 +60,7 @@ const Home = () => {
         </ServiceTextContainer>
         <ServiceMap src={Map} />
       </MapContainer>
+      <BusImage src={BusImg} />
       <Footer />
     </PageContainer>
   );

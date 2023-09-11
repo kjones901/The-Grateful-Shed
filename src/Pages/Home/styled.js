@@ -4,6 +4,8 @@ import colors from "../../colors";
 import LogoImg from "../../assets/logo.png";
 import BackgroundSrc from "../../assets/background-groovy-blurred.png";
 
+
+
 export const TitleContainer = styled.section`
   display: flex;
   flex-direction: column;
@@ -149,3 +151,7 @@ export const ServiceTitle = styled.h1`
   padding-top: 1rem;
   text-decoration: underline;
 `;
+
+export const BusImage = styled.img`
+  width: 100vw;
+`
