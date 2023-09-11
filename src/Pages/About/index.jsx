@@ -19,7 +19,7 @@ const About = () => {
           <AboutMeTitle>
             <PawIcon /> Hi,
           </AboutMeTitle>
-          I would like to introduce myself. My name is Laura Hartman and I L❤️VE DOGS!
+          I would like to introduce myself. My name is Laura Hartman and I LOVE DOGS!
           According to my Mom, the first word I ever spoke was Dog! I deeply love all
           animals and considered becoming a veterinarian.<br/><br/> I followed a different path and
           became a nurse. I have worked in the operating room helping to heal people for
