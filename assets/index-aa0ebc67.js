@@ -331,7 +331,9 @@ Error generating stack: `+l.message+`
   font-size: 3rem;
   padding-top: 1rem;
   text-decoration: underline;
-`,J0="/The-Grateful-Shed/assets/service-area-map-5fe9f905.png",q0=()=>d.jsxs(Ru,{children:[d.jsx(Ml,{}),d.jsxs(F0,{children:[d.jsx(W0,{children:"THE GRATEFUL SHED"}),d.jsx(U0,{children:d.jsxs(B0,{children:["THE ",d.jsx("br",{})," GRATEFUL ",d.jsx("br",{})," SHED"]})}),d.jsx(V0,{children:d.jsx(G0,{})})]}),d.jsxs(M0,{children:[d.jsx(Q0,{children:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."}),d.jsx(H0,{})]}),d.jsxs(K0,{children:[d.jsxs(X0,{children:[d.jsx(Z0,{children:"Service Area"}),d.jsxs(qf,{children:["Based out of Payson, UT.",d.jsx("br",{}),"Now Accepting Clients from Provo to Santaquin.",d.jsx("br",{}),d.jsx("br",{}),d.jsx("br",{}),"* Discounts available if you'd prefer to bring your dog to Payson."]})]}),d.jsx(Y0,{src:J0})]}),d.jsx(Dl,{})]}),b0="/The-Grateful-Shed/assets/laura-f473a096.jpg",ev=R.div`
+`,J0=R.img`
+  width: 100vw;
+`,q0="/The-Grateful-Shed/assets/service-area-map-5fe9f905.png",b0="/The-Grateful-Shed/assets/bus-img-wide2-02c381b0.jpg",ev=()=>d.jsxs(Ru,{children:[d.jsx(Ml,{}),d.jsxs(F0,{children:[d.jsx(W0,{children:"THE GRATEFUL SHED"}),d.jsx(U0,{children:d.jsxs(B0,{children:["THE ",d.jsx("br",{})," GRATEFUL ",d.jsx("br",{})," SHED"]})}),d.jsx(V0,{children:d.jsx(G0,{})})]}),d.jsxs(M0,{children:[d.jsx(Q0,{children:`"The Grateful Shed" – where convenience meets canine comfort. With a freshly renovated and roomy mobile dog bus, I offer nothing short of top of the line pampering for your beloved four-legged friend, no matter their size. My mission goes beyond just bringing grooming to your doorstep; it's about providing the undivided attention and personalized care that your cherished companion deserves. Welcome to a world of tail-wagging transformations and a truly grateful pup.`}),d.jsx(H0,{})]}),d.jsxs(K0,{children:[d.jsxs(X0,{children:[d.jsx(Z0,{children:"Service Area"}),d.jsxs(qf,{children:["Based out of Payson, UT.",d.jsx("br",{}),"Now Accepting Clients from Provo to Santaquin.",d.jsx("br",{}),d.jsx("br",{}),d.jsx("br",{}),"* Discounts available if you'd prefer to bring your dog to Payson."]})]}),d.jsx(Y0,{src:q0})]}),d.jsx(J0,{src:b0}),d.jsx(Dl,{})]}),tv="/The-Grateful-Shed/assets/laura-f473a096.jpg",nv=R.div`
   display: flex;
   align-items: center;
   background-color: ${Le.green};
@@ -343,7 +345,7 @@ Error generating stack: `+l.message+`
     padding: 0px;
     margin: 0px;
   }
-  `,tv=R.section`
+  `,rv=R.section`
   display: flex;
   float: left;
   justify-content: center;
@@ -356,14 +358,14 @@ Error generating stack: `+l.message+`
     padding: 2rem;
     margin: 0px;
   }
-  `,nv=R.img.attrs({src:`${b0}`})`
+  `,iv=R.img.attrs({src:`${tv}`})`
   width: 300px;
   border-radius: 2rem;
 
   @media (max-width: 992px) {
     flex-direction: column;
   }
-  `,rv=R.h1`
+  `,lv=R.h1`
   font-family: "Shrikhand";
   font-weight: lighter;
   font-size: 5rem;
@@ -373,7 +375,7 @@ Error generating stack: `+l.message+`
   @media (max-width: 992px) {
     font-size: 3rem;
   }
-  `,iv=R.div`
+  `,ov=R.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -396,14 +398,14 @@ Error generating stack: `+l.message+`
   justify-content: center;
   top: 0;
   z-index: -1;
-`;const lv=R.i.attrs({className:"fa-solid fa-paw"})`
+`;const sv=R.i.attrs({className:"fa-solid fa-paw"})`
 	color: white;
 	font-size: 6rem;
 
   @media (max-width: 992px) {
     font-size: 4rem;
   }
-`,ov=()=>d.jsxs(Ru,{children:[d.jsx(Ml,{}),d.jsxs(ev,{children:[d.jsxs(iv,{children:[d.jsxs(rv,{children:[d.jsx(lv,{})," Hi,"]}),"I would like to introduce myself. My name is Laura Hartman and I L❤️VE DOGS! According to my Mom, the first word I ever spoke was Dog! I deeply love all animals and considered becoming a veterinarian.",d.jsx("br",{}),d.jsx("br",{})," I followed a different path and became a nurse. I have worked in the operating room helping to heal people for close to 30 years. I am so excited and pleased to announce that I have started a whole new chapter in my healing caregiver role. I've switched my focus back to dogs. I want to help dogs live their happiest, healthiest, most stylish lives possible!",d.jsx("br",{}),d.jsx("br",{})," When your beloved furry friend is in my care they will be treated with love just like my own dog Odin. ❤️🐶❤️"]}),d.jsx(tv,{children:d.jsx(nv,{})})]}),d.jsx(Dl,{})]}),sv="/The-Grateful-Shed/assets/pricing-small-dog-9b782b9a.jpeg",uv="/The-Grateful-Shed/assets/pricing-medium-dog-c41f734e.jpeg",av="/The-Grateful-Shed/assets/pricing-large-dog-1445f60b.jpeg",wo=R.img`
+`,uv=()=>d.jsxs(Ru,{children:[d.jsx(Ml,{}),d.jsxs(nv,{children:[d.jsxs(ov,{children:[d.jsxs(lv,{children:[d.jsx(sv,{})," Hi,"]}),"I would like to introduce myself. My name is Laura Hartman and I L❤️VE DOGS! According to my Mom, the first word I ever spoke was Dog! I deeply love all animals and considered becoming a veterinarian.",d.jsx("br",{}),d.jsx("br",{})," I followed a different path and became a nurse. I have worked in the operating room helping to heal people for close to 30 years. I am so excited and pleased to announce that I have started a whole new chapter in my healing caregiver role. I've switched my focus back to dogs. I want to help dogs live their happiest, healthiest, most stylish lives possible!",d.jsx("br",{}),d.jsx("br",{})," When your beloved furry friend is in my care they will be treated with love just like my own dog Odin. ❤️🐶❤️"]}),d.jsx(rv,{children:d.jsx(iv,{})})]}),d.jsx(Dl,{})]}),av="/The-Grateful-Shed/assets/pricing-small-dog-9b782b9a.jpeg",cv="/The-Grateful-Shed/assets/pricing-medium-dog-c41f734e.jpeg",dv="/The-Grateful-Shed/assets/pricing-large-dog-1445f60b.jpeg",wo=R.img`
   max-width: 100%;
   max-height: 100%;
   height: auto;
@@ -526,17 +528,17 @@ Error generating stack: `+l.message+`
     font-size: 3vw;
     padding: 0.2rem;
   }
-`,cv=R.h3`
+`,fv=R.h3`
   padding: 1rem;
-`,dv=R.h5`
+`,pv=R.h5`
   margin-bottom: 1rem;
-`,fv=R.h1`
+`,hv=R.h1`
   font-family: "Shrikhand";
   font-weight: lighter;
   font-size: 3rem;
   padding-top: 1rem;
   text-decoration: underline;
-`,pv=R.div`
+`,mv=R.div`
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -547,7 +549,7 @@ Error generating stack: `+l.message+`
     align-items: center;
     justify-content: center;
   }
-`,hv=()=>d.jsxs(Ru,{children:[d.jsx(Ml,{}),d.jsx(cv,{children:"By appointment only: CALL or TEXT to book - 801-696-2233"}),d.jsx(dv,{children:"* Additional charges may apply for poodle mixes."}),d.jsxs(ko,{children:[d.jsx(So,{children:d.jsx(wo,{src:sv})}),d.jsxs(Co,{children:[d.jsx(Eo,{children:"Small Dogs (< 20lbs)"}),d.jsxs(jo,{children:[d.jsxs(at,{children:[d.jsxs(lt,{children:[d.jsx(ot,{children:"Full Service "}),d.jsx(ut,{children:" $100-$130"})]}),d.jsxs(st,{children:[d.jsxs(I,{children:[d.jsx($,{})," Shampoo & Conditioner of Choice"]}),d.jsxs(I,{children:[d.jsx($,{})," Leave in Conditioner"]}),d.jsxs(I,{children:[d.jsx($,{})," Haircut"]}),d.jsxs(I,{children:[d.jsx($,{})," Sanitary Trimming"]}),d.jsxs(I,{children:[d.jsx($,{})," Ear Cleaning"]}),d.jsxs(I,{children:[d.jsx($,{})," Nails Trimmed & Filed"]}),d.jsxs(I,{children:[d.jsx($,{})," Teeth Brushed"]})]})]}),d.jsxs(at,{children:[d.jsxs(lt,{children:[d.jsx(ot,{children:"Bath & Brush Out"}),d.jsx(ut,{children:"$70-$100"})]}),d.jsxs(st,{children:[d.jsxs(I,{children:[d.jsx($,{})," Shampoo"]}),d.jsxs(I,{children:[d.jsx($,{})," Leave in Conditioner"]}),d.jsxs(I,{children:[d.jsx($,{})," Brush Out"]}),d.jsxs(I,{children:[d.jsx($,{})," Nails Trimmed & Filed"]}),d.jsxs(I,{children:[d.jsx($,{})," Ear Cleaning"]})]})]}),d.jsxs(at,{children:[d.jsxs(lt,{children:[d.jsx(ot,{children:"Deluxe Pawdycures"}),d.jsx(ut,{children:"$40"})]}),d.jsxs(st,{children:[d.jsxs(I,{children:[d.jsx($,{})," Fur On & Between Paw Pads Trimmed"]}),d.jsxs(I,{children:[d.jsx($,{})," Nails Trimmed & Filed"]}),d.jsxs(I,{children:[d.jsx($,{})," Paw Pad Massage with DoTerra Essential Oil"]})]})]})]})]})]}),d.jsxs(ko,{children:[d.jsxs(Co,{children:[d.jsx(Eo,{children:"Medium Dogs (20-55lbs)"}),d.jsxs(jo,{children:[d.jsxs(at,{children:[d.jsxs(lt,{children:[d.jsx(ot,{children:"Full Service"}),d.jsx(ut,{children:"$110-$140"})]}),d.jsxs(st,{children:[d.jsxs(I,{children:[d.jsx($,{})," Shampoo & Conditioner of Choice"]}),d.jsxs(I,{children:[d.jsx($,{})," Leave in Conditioner"]}),d.jsxs(I,{children:[d.jsx($,{})," Haircut"]}),d.jsxs(I,{children:[d.jsx($,{})," Sanitary Trimming"]}),d.jsxs(I,{children:[d.jsx($,{})," Ear Cleaning"]}),d.jsxs(I,{children:[d.jsx($,{})," Nails Trimmed & Filed"]}),d.jsxs(I,{children:[d.jsx($,{})," Teeth Brushed"]})]})]}),d.jsxs(at,{children:[d.jsxs(lt,{children:[d.jsx(ot,{children:"Bath & Brush Out"}),d.jsx(ut,{children:"$70-$100"})]}),d.jsxs(st,{children:[d.jsxs(I,{children:[d.jsx($,{})," Shampoo"]}),d.jsxs(I,{children:[d.jsx($,{})," Leave in Conditioner"]}),d.jsxs(I,{children:[d.jsx($,{})," Brush Out"]}),d.jsxs(I,{children:[d.jsx($,{})," Nails Trimmed & Filed"]}),d.jsxs(I,{children:[d.jsx($,{})," Ear Cleaning"]})]})]}),d.jsxs(at,{children:[d.jsxs(lt,{children:[d.jsx(ot,{children:"Deluxe Pawdycures"}),d.jsx(ut,{children:"$40"})]}),d.jsxs(st,{children:[d.jsxs(I,{children:[d.jsx($,{})," Fur On & Between Paw Pads Trimmed"]}),d.jsxs(I,{children:[d.jsx($,{})," Nails Trimmed & Filed"]}),d.jsxs(I,{children:[d.jsx($,{})," Paw Pad Massage with DoTerra Essential Oil"]})]})]})]})]}),d.jsx(So,{children:d.jsx(wo,{src:uv})})]}),d.jsxs(ko,{children:[d.jsx(So,{children:d.jsx(wo,{src:av})}),d.jsxs(Co,{children:[d.jsx(Eo,{children:"Large Dogs (Depending on size & breed)"}),d.jsxs(jo,{children:[d.jsxs(at,{children:[d.jsxs(lt,{children:[d.jsx(ot,{children:"Full Service"}),d.jsx(ut,{children:"$130-$300"})]}),d.jsxs(st,{children:[d.jsxs(I,{children:[d.jsx($,{})," Shampoo & Conditioner of Choice"]}),d.jsxs(I,{children:[d.jsx($,{})," Leave in Conditioner"]}),d.jsxs(I,{children:[d.jsx($,{})," Haircut"]}),d.jsxs(I,{children:[d.jsx($,{})," Sanitary Trimming"]}),d.jsxs(I,{children:[d.jsx($,{})," Ear Cleaning"]}),d.jsxs(I,{children:[d.jsx($,{})," Nails Trimmed & Filed"]}),d.jsxs(I,{children:[d.jsx($,{})," Teeth Brushed"]})]})]}),d.jsxs(at,{children:[d.jsxs(lt,{children:[d.jsx(ot,{children:"Bath & Brush Out"}),d.jsx(ut,{children:"$70-$100"})]}),d.jsxs(st,{children:[d.jsxs(I,{children:[d.jsx($,{})," Shampoo"]}),d.jsxs(I,{children:[d.jsx($,{})," Leave in Conditioner"]}),d.jsxs(I,{children:[d.jsx($,{})," Brush Out"]}),d.jsxs(I,{children:[d.jsx($,{})," Nails Trimmed & Filed"]}),d.jsxs(I,{children:[d.jsx($,{})," Ear Cleaning"]})]})]}),d.jsxs(at,{children:[d.jsxs(lt,{children:[d.jsx(ot,{children:"Deluxe Pawdycures"}),d.jsx(ut,{children:"$40"})]}),d.jsxs(st,{children:[d.jsxs(I,{children:[d.jsx($,{})," Fur On & Between Paw Pads Trimmed"]}),d.jsxs(I,{children:[d.jsx($,{})," Nails Trimmed & Filed"]}),d.jsxs(I,{children:[d.jsx($,{})," Paw Pad Massage with DoTerra Essential Oil"]})]})]})]})]})]}),d.jsxs(pv,{children:[d.jsx(fv,{children:"Policies"}),d.jsxs(qf,{children:["All appointments cancelled with less than 24 hours notice will be charged a $50 fee.",d.jsx("br",{}),d.jsx("br",{}),"Dogs MUST have a current Rabies Vaccination.",d.jsx("br",{}),"* Recommend full vaccination, but only require proof of rabies vaccination.",d.jsx("br",{}),d.jsx("br",{}),"No Aggressive Dogs!",d.jsx("br",{}),"* Aggressive behavior during the appointment will be cancelled and charged for full service."]})]}),d.jsx(Dl,{})]}),mv="/The-Grateful-Shed/assets/Gbefore1-55bfc48e.jpeg",gv="/The-Grateful-Shed/assets/Gafter1-2ce176e9.jpeg",vv="/The-Grateful-Shed/assets/Gbefore2-c79ef8a8.jpeg",yv="/The-Grateful-Shed/assets/Gafter2-78b46c49.jpeg",xv="/The-Grateful-Shed/assets/Gbefore3-ee5977ea.jpeg",wv="/The-Grateful-Shed/assets/Gafter3-b4636d6e.jpeg",Sv="/The-Grateful-Shed/assets/Gbefore4-ce5fce2f.jpeg",kv="/The-Grateful-Shed/assets/Gafter4-ddd788e9.jpeg",Ev=R.section`
+`,gv=()=>d.jsxs(Ru,{children:[d.jsx(Ml,{}),d.jsx(fv,{children:"By appointment only: CALL or TEXT to book - 801-696-2233"}),d.jsx(pv,{children:"* Additional charges may apply for poodle mixes."}),d.jsxs(ko,{children:[d.jsx(So,{children:d.jsx(wo,{src:av})}),d.jsxs(Co,{children:[d.jsx(Eo,{children:"Small Dogs (< 20lbs)"}),d.jsxs(jo,{children:[d.jsxs(at,{children:[d.jsxs(lt,{children:[d.jsx(ot,{children:"Full Service "}),d.jsx(ut,{children:" $100-$130"})]}),d.jsxs(st,{children:[d.jsxs(I,{children:[d.jsx($,{})," Shampoo & Conditioner of Choice"]}),d.jsxs(I,{children:[d.jsx($,{})," Leave in Conditioner"]}),d.jsxs(I,{children:[d.jsx($,{})," Haircut"]}),d.jsxs(I,{children:[d.jsx($,{})," Sanitary Trimming"]}),d.jsxs(I,{children:[d.jsx($,{})," Ear Cleaning"]}),d.jsxs(I,{children:[d.jsx($,{})," Nails Trimmed & Filed"]}),d.jsxs(I,{children:[d.jsx($,{})," Teeth Brushed"]})]})]}),d.jsxs(at,{children:[d.jsxs(lt,{children:[d.jsx(ot,{children:"Bath & Brush Out"}),d.jsx(ut,{children:"$70-$100"})]}),d.jsxs(st,{children:[d.jsxs(I,{children:[d.jsx($,{})," Shampoo"]}),d.jsxs(I,{children:[d.jsx($,{})," Leave in Conditioner"]}),d.jsxs(I,{children:[d.jsx($,{})," Brush Out"]}),d.jsxs(I,{children:[d.jsx($,{})," Nails Trimmed & Filed"]}),d.jsxs(I,{children:[d.jsx($,{})," Ear Cleaning"]})]})]}),d.jsxs(at,{children:[d.jsxs(lt,{children:[d.jsx(ot,{children:"Deluxe Pawdycures"}),d.jsx(ut,{children:"$40"})]}),d.jsxs(st,{children:[d.jsxs(I,{children:[d.jsx($,{})," Fur On & Between Paw Pads Trimmed"]}),d.jsxs(I,{children:[d.jsx($,{})," Nails Trimmed & Filed"]}),d.jsxs(I,{children:[d.jsx($,{})," Paw Pad Massage with DoTerra Essential Oil"]})]})]})]})]})]}),d.jsxs(ko,{children:[d.jsxs(Co,{children:[d.jsx(Eo,{children:"Medium Dogs (20-55lbs)"}),d.jsxs(jo,{children:[d.jsxs(at,{children:[d.jsxs(lt,{children:[d.jsx(ot,{children:"Full Service"}),d.jsx(ut,{children:"$110-$140"})]}),d.jsxs(st,{children:[d.jsxs(I,{children:[d.jsx($,{})," Shampoo & Conditioner of Choice"]}),d.jsxs(I,{children:[d.jsx($,{})," Leave in Conditioner"]}),d.jsxs(I,{children:[d.jsx($,{})," Haircut"]}),d.jsxs(I,{children:[d.jsx($,{})," Sanitary Trimming"]}),d.jsxs(I,{children:[d.jsx($,{})," Ear Cleaning"]}),d.jsxs(I,{children:[d.jsx($,{})," Nails Trimmed & Filed"]}),d.jsxs(I,{children:[d.jsx($,{})," Teeth Brushed"]})]})]}),d.jsxs(at,{children:[d.jsxs(lt,{children:[d.jsx(ot,{children:"Bath & Brush Out"}),d.jsx(ut,{children:"$70-$100"})]}),d.jsxs(st,{children:[d.jsxs(I,{children:[d.jsx($,{})," Shampoo"]}),d.jsxs(I,{children:[d.jsx($,{})," Leave in Conditioner"]}),d.jsxs(I,{children:[d.jsx($,{})," Brush Out"]}),d.jsxs(I,{children:[d.jsx($,{})," Nails Trimmed & Filed"]}),d.jsxs(I,{children:[d.jsx($,{})," Ear Cleaning"]})]})]}),d.jsxs(at,{children:[d.jsxs(lt,{children:[d.jsx(ot,{children:"Deluxe Pawdycures"}),d.jsx(ut,{children:"$40"})]}),d.jsxs(st,{children:[d.jsxs(I,{children:[d.jsx($,{})," Fur On & Between Paw Pads Trimmed"]}),d.jsxs(I,{children:[d.jsx($,{})," Nails Trimmed & Filed"]}),d.jsxs(I,{children:[d.jsx($,{})," Paw Pad Massage with DoTerra Essential Oil"]})]})]})]})]}),d.jsx(So,{children:d.jsx(wo,{src:cv})})]}),d.jsxs(ko,{children:[d.jsx(So,{children:d.jsx(wo,{src:dv})}),d.jsxs(Co,{children:[d.jsx(Eo,{children:"Large Dogs (Depending on size & breed)"}),d.jsxs(jo,{children:[d.jsxs(at,{children:[d.jsxs(lt,{children:[d.jsx(ot,{children:"Full Service"}),d.jsx(ut,{children:"$130-$300"})]}),d.jsxs(st,{children:[d.jsxs(I,{children:[d.jsx($,{})," Shampoo & Conditioner of Choice"]}),d.jsxs(I,{children:[d.jsx($,{})," Leave in Conditioner"]}),d.jsxs(I,{children:[d.jsx($,{})," Haircut"]}),d.jsxs(I,{children:[d.jsx($,{})," Sanitary Trimming"]}),d.jsxs(I,{children:[d.jsx($,{})," Ear Cleaning"]}),d.jsxs(I,{children:[d.jsx($,{})," Nails Trimmed & Filed"]}),d.jsxs(I,{children:[d.jsx($,{})," Teeth Brushed"]})]})]}),d.jsxs(at,{children:[d.jsxs(lt,{children:[d.jsx(ot,{children:"Bath & Brush Out"}),d.jsx(ut,{children:"$70-$100"})]}),d.jsxs(st,{children:[d.jsxs(I,{children:[d.jsx($,{})," Shampoo"]}),d.jsxs(I,{children:[d.jsx($,{})," Leave in Conditioner"]}),d.jsxs(I,{children:[d.jsx($,{})," Brush Out"]}),d.jsxs(I,{children:[d.jsx($,{})," Nails Trimmed & Filed"]}),d.jsxs(I,{children:[d.jsx($,{})," Ear Cleaning"]})]})]}),d.jsxs(at,{children:[d.jsxs(lt,{children:[d.jsx(ot,{children:"Deluxe Pawdycures"}),d.jsx(ut,{children:"$40"})]}),d.jsxs(st,{children:[d.jsxs(I,{children:[d.jsx($,{})," Fur On & Between Paw Pads Trimmed"]}),d.jsxs(I,{children:[d.jsx($,{})," Nails Trimmed & Filed"]}),d.jsxs(I,{children:[d.jsx($,{})," Paw Pad Massage with DoTerra Essential Oil"]})]})]})]})]})]}),d.jsxs(mv,{children:[d.jsx(hv,{children:"Policies"}),d.jsxs(qf,{children:["All appointments cancelled with less than 24 hours notice will be charged a $50 fee.",d.jsx("br",{}),d.jsx("br",{}),"Dogs MUST have a current Rabies Vaccination.",d.jsx("br",{}),"* Recommend full vaccination, but only require proof of rabies vaccination.",d.jsx("br",{}),d.jsx("br",{}),"No Aggressive Dogs!",d.jsx("br",{}),"* Aggressive behavior during the appointment will be cancelled and charged for full service."]})]}),d.jsx(Dl,{})]}),vv="/The-Grateful-Shed/assets/Gbefore1-55bfc48e.jpeg",yv="/The-Grateful-Shed/assets/Gafter1-2ce176e9.jpeg",xv="/The-Grateful-Shed/assets/Gbefore2-c79ef8a8.jpeg",wv="/The-Grateful-Shed/assets/Gafter2-78b46c49.jpeg",Sv="/The-Grateful-Shed/assets/Gbefore3-ee5977ea.jpeg",kv="/The-Grateful-Shed/assets/Gafter3-b4636d6e.jpeg",Ev="/The-Grateful-Shed/assets/Gbefore4-ce5fce2f.jpeg",Cv="/The-Grateful-Shed/assets/Gafter4-ddd788e9.jpeg",jv=R.section`
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -558,13 +560,13 @@ Error generating stack: `+l.message+`
   width: 100vw;
   min-height: 100vh;
   background-image: linear-gradient(to bottom, ${Le.green}, ${Le.light});
-`,Cv=R.h1`
+`,Pv=R.h1`
   font-family: 'Shrikhand';
   font-weight: lighter;
   font-size: 5rem;
   color: white;
   padding-top: 2.5rem;
-`,jv=R.h2`
+`,_v=R.h2`
   color: white;
 `,vi=R.div`
   display: flex;
@@ -583,4 +585,4 @@ Error generating stack: `+l.message+`
 `,xi=R.img`
   width: 50%;
   border-radius: 5px;
-`,Pv=()=>d.jsxs(Ev,{children:[d.jsx(Ml,{}),d.jsx(Cv,{children:"Gallery"}),d.jsx(jv,{children:'"Stay Trippy, Little Yippy!"'}),d.jsxs(vi,{children:[d.jsx(yi,{src:mv}),d.jsx(xi,{src:gv})]}),d.jsxs(vi,{children:[d.jsx(yi,{src:Sv}),d.jsx(xi,{src:kv})]}),d.jsxs(vi,{children:[d.jsx(yi,{src:vv}),d.jsx(xi,{src:yv})]}),d.jsxs(vi,{children:[d.jsx(yi,{src:xv}),d.jsx(xi,{src:wv})]}),d.jsx(Dl,{})]});function _v(){return d.jsx(kg,{children:d.jsxs(gg,{children:[d.jsx(fr,{path:"/",element:d.jsx(q0,{})}),d.jsx(fr,{path:"/gallery",element:d.jsx(Pv,{})}),d.jsx(fr,{path:"/pricing",element:d.jsx(hv,{})}),d.jsx(fr,{path:"/about",element:d.jsx(ov,{})})]})})}Po.createRoot(document.getElementById("root")).render(d.jsx(on.StrictMode,{children:d.jsx(_v,{})}));
+`,Tv=()=>d.jsxs(jv,{children:[d.jsx(Ml,{}),d.jsx(Pv,{children:"Gallery"}),d.jsx(_v,{children:'"Stay Trippy, Little Yippy!"'}),d.jsxs(vi,{children:[d.jsx(yi,{src:vv}),d.jsx(xi,{src:yv})]}),d.jsxs(vi,{children:[d.jsx(yi,{src:Ev}),d.jsx(xi,{src:Cv})]}),d.jsxs(vi,{children:[d.jsx(yi,{src:xv}),d.jsx(xi,{src:wv})]}),d.jsxs(vi,{children:[d.jsx(yi,{src:Sv}),d.jsx(xi,{src:kv})]}),d.jsx(Dl,{})]});function Nv(){return d.jsx(kg,{children:d.jsxs(gg,{children:[d.jsx(fr,{path:"/",element:d.jsx(ev,{})}),d.jsx(fr,{path:"/gallery",element:d.jsx(Tv,{})}),d.jsx(fr,{path:"/pricing",element:d.jsx(gv,{})}),d.jsx(fr,{path:"/about",element:d.jsx(uv,{})})]})})}Po.createRoot(document.getElementById("root")).render(d.jsx(on.StrictMode,{children:d.jsx(Nv,{})}));
