@@ -27,7 +27,7 @@ const Policies = () => {
           and it must be up-to-date. While we recommend full vaccination, rabies
           vaccination is the only mandatory requirement.
         </PolicyText>
-        <PolicySubTitle>2. No Aggressive Dogs</PolicySubTitle>
+        <PolicySubTitle>2. No Aggressive Dogs:</PolicySubTitle>
         <PolicyText>
           If your dog displays aggressive behavior during the grooming appointment, I may
           need to cancel the session in the interest of safety. In such cases, the full
