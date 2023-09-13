@@ -16,7 +16,7 @@ const Policies = () => {
       <PolicyTitle> Mobile Grooming Policies</PolicyTitle>
       <PolicyContainer>
         <PolicySubText>
-          At The Grateful Shed, I am dedicated to providing exceptional and tailored
+          I am dedicated to providing exceptional and tailored
           grooming services. Your trust in me means the world, and I want to ensure a safe
           and comfortable experience for both your dog and me as your groomer.
         </PolicySubText>
@@ -33,24 +33,20 @@ const Policies = () => {
           need to cancel the session in the interest of safety. In such cases, the full
           service fee will be charged.
         </PolicyText>
-        <PolicySubTitle>3. Cancellation Policy:</PolicySubTitle>
+        <PolicySubTitle>3. No Micro-Sized Dogs:</PolicySubTitle>
+        <PolicyText>
+          At The Grateful Shed, I happily offer grooming services to dogs of various
+          sizes, ranging from small to large breeds. Every dog, regardless of its size,
+          deserves attention and care. However, please understand that I do not currently
+          groom micro-sized dogs. This choice is based on my preference to focus on
+          providing the best possible grooming experience, considering my setup and
+          expertise.
+        </PolicyText>
+        <PolicySubTitle>4. Cancellation Policy:</PolicySubTitle>
         <PolicyText>
           All appointments must be canceled with at least 24 hours&apos; notice.
           Appointments canceled with less than 24 hours&apos; notice will be subject to a
           $50 cancellation fee.
-        </PolicyText>
-        <PolicySubTitle>4. Specializing in Larger Dogs:</PolicySubTitle>
-        <PolicyText>
-          I specialize in grooming larger dog breeds. Considering their unique coat types
-          and sizes, I have found that I can provide the best results and individualized
-          attention to larger breeds. While I do not have strict size restrictions, please
-          understand that my focus is on larger dogs to ensure the highest level of care
-          and expertise.
-          <br />
-          <br />
-          If you have a smaller dog that you believe would benefit from my services,
-          please feel free to contact me. I will assess each case individually to
-          determine if I can accommodate your dog&apos;s specific needs. <br />
         </PolicyText>
         <PolicySubText>
           Thank you for choosing The Grateful Shed for your dog&apos;s grooming needs. I
