@@ -18,6 +18,7 @@ const Header = () => {
         <NavLinks to="/">Home</NavLinks>
         <NavLinks to="/gallery">Gallery</NavLinks>
         <NavLinks to="/pricing">Pricing</NavLinks>
+        <NavLinks to="/policies">Policies</NavLinks>
         <NavLinks to="/about">About Me</NavLinks>
       </NavContainer>
     </HeaderContainer>

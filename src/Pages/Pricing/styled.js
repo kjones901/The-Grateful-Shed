@@ -152,30 +152,8 @@ export const ServiceListItem = styled.li`
 
 export const AboutText = styled.h3`
   padding: 1rem;
-`
+`;
 
 export const AboutTextSub = styled.h5`
   margin-bottom: 1rem;
-`
-
-export const PolicyTitle = styled.h1`
-  font-family: "Shrikhand";
-  font-weight: lighter;
-  font-size: 3rem;
-  padding-top: 1rem;
-  text-decoration: underline;
 `;
-
-export const PolicyContainer = styled.div`
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  width: 80vw;
-  margin-bottom: 1rem;
-
-  @media (max-width: 992px) {
-    align-items: center;
-    justify-content: center;
-  }
-`
-

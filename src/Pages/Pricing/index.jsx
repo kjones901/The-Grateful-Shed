@@ -1,6 +1,6 @@
 import Footer from "../../Components/Footer";
 import Header from "../../Components/Header";
-import { PageContainer, TextContainer } from "../pageStyled";
+import { PageContainer } from "../pageStyled";
 import SmallDogImg from "../../assets/pricing-small-dog.jpeg";
 import MedDogImg from "../../assets/pricing-medium-dog.jpeg";
 import LargeDogImg from "../../assets/pricing-large-dog.jpeg";
@@ -10,8 +10,6 @@ import {
   DogSize,
   ImageContainer,
   PawIcon,
-  PolicyContainer,
-  PolicyTitle,
   Price,
   PriceContainer,
   PriceTextColumn,
@@ -267,23 +265,6 @@ const Pricing = () => {
           </ServicesPricingContainer>
         </PriceTextContainer>
       </PriceContainer>
-      <PolicyContainer>
-        <PolicyTitle>Policies</PolicyTitle>
-        <TextContainer>
-          All appointments cancelled with less than 24 hours notice will be charged a $50 fee.
-          <br/>
-          <br/>
-          Dogs MUST have a current Rabies Vaccination.
-          <br/>
-          * Recommend full vaccination, but only require proof of rabies vaccination. 
-          <br />
-          <br />
-          No Aggressive Dogs!
-          <br />
-          * Aggressive behavior during the appointment will be cancelled and charged for full service.
-        </TextContainer>
-      </PolicyContainer>
-
       <Footer />
     </PageContainer>
   );
