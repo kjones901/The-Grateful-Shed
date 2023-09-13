@@ -225,7 +225,7 @@ const Pricing = () => {
             <PriceTextColumn>
               <ServiceTitleContainer>
                 <ServiceTitle>Bath & Brush Out</ServiceTitle>
-                <Price>$95-$300</Price>
+                <Price>$95-$200</Price>
               </ServiceTitleContainer>
               <ServiceDetails>
                 <ServiceListItem>
