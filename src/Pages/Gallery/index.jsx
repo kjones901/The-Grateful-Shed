@@ -8,6 +8,8 @@ import Before3 from "../../assets/Gbefore3.jpeg";
 import After3 from "../../assets/Gafter3.jpeg";
 import Before4 from "../../assets/Gbefore4.jpeg";
 import After4 from "../../assets/Gafter4.jpeg";
+import Before5 from "../../assets/Gbefore5.jpeg";
+import After5 from "../../assets/Gafter5.jpeg";
 import { AfterImg, BeforeImg, GalleryBackground, GalleryCard, GallerySubtitle, GalleryTitle } from "./styled";
 
 const Gallery = () => {
@@ -17,20 +19,24 @@ const Gallery = () => {
         <GalleryTitle>Gallery</GalleryTitle>
         <GallerySubtitle>&quot;Stay Trippy, Little Yippy!&quot;</GallerySubtitle>
         <GalleryCard>
-          <BeforeImg src={Before1} />
-          <AfterImg src={After1} />
+          <BeforeImg src={Before5} />
+          <AfterImg src={After5} />
         </GalleryCard>
         <GalleryCard>
           <BeforeImg src={Before4} />
           <AfterImg src={After4} />
         </GalleryCard>
         <GalleryCard>
+          <BeforeImg src={Before3} />
+          <AfterImg src={After3} />
+        </GalleryCard>
+        <GalleryCard>
           <BeforeImg src={Before2} />
           <AfterImg src={After2} />
         </GalleryCard>
         <GalleryCard>
-          <BeforeImg src={Before3} />
-          <AfterImg src={After3} />
+          <BeforeImg src={Before1} />
+          <AfterImg src={After1} />
         </GalleryCard>
         <Footer />
       </GalleryBackground>
