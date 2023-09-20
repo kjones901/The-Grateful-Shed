@@ -133,8 +133,8 @@ export const ServiceMap = styled.img`
   @media (max-width: 992px) {
     width: 70vw;
     padding: 0;
-    padding-bottom: 2rem;
-    border-radius: 1rem;
+    margin-bottom: 2rem;
+    border-radius: .5rem;
   }
 `;
 

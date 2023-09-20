@@ -22,9 +22,9 @@ const Policies = () => {
         </PolicySubText>
         <PolicySubTitle>1. Rabies Vaccination Requirement: </PolicySubTitle>
         <PolicyText>
-          For the safety of all our clients and to comply with local regulations, all dogs
-          MUST have a current Rabies Vaccination. We require proof of rabies vaccination,
-          and it must be up-to-date. While we recommend full vaccination, rabies
+          For the safety of all my clients and to comply with local regulations, all dogs
+          MUST have a current Rabies Vaccination. I require proof of rabies vaccination,
+          and it must be up-to-date. While I recommend full vaccination, rabies
           vaccination is the only mandatory requirement.
         </PolicyText>
         <PolicySubTitle>2. No Aggressive Dogs:</PolicySubTitle>
