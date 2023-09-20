@@ -13,7 +13,7 @@ const Policies = () => {
   return (
     <PageContainer>
       <Header />
-      <PolicyTitle> Mobile Grooming Policies</PolicyTitle>
+      <PolicyTitle>Grateful Shed Policies</PolicyTitle>
       <PolicyContainer>
         <PolicySubText>
           I am dedicated to providing exceptional and tailored
