@@ -13,24 +13,28 @@ export const HeaderContainer = styled.section`
   background: ${colors.light};
 
   @media (max-width: 992px) {
-    flex-direction: column;
     width: 100vw;
     padding: 0px;
     margin: 0px;
   }
-`;
+  `;
 
-export const NavContainer = styled.div`
+export const NavContainer = styled.nav`
   display: flex;
-  padding-right: 2rem;
   gap: 2rem;
-  justify-content: center;
   align-items: center;
-
+  
   @media (max-width: 992px) {
-    padding: 1rem;
+    transform: ${({open}) => open ? 'translateX(0)' : 'translateX(100%)'};
     flex-direction: column;
-    gap: 0.5rem;
+    position: fixed;
+    right: 0px;
+    top: 0px;
+    width: 100vw;
+    gap: 2rem;
+    height: 100vh;
+    background-color: ${colors.light};
+    transition: transform 0.3s ease-in-out;
   }
 `;
 
@@ -44,9 +48,10 @@ export const NavLinks = styled(Link)`
   }
 
   @media (max-width: 992px) {
-    width: 90vw;
+    width: 200px;
     border: 2px solid black;
     border-radius: 0.3rem;
+
   }
 `;
 
@@ -68,10 +73,10 @@ export const LogoContainer = styled(Link)`
     cursor: pointer;
   }
 
-  @media (max-width: 992px) {
-    width: 100vw;
-    background-color: ${colors.dark};
+   @media (max-width: 992px) {
+    padding-left: 1.5rem;
   }
+
 `;
 
 export const HeaderTitle = styled.h2`
@@ -83,5 +88,6 @@ export const HeaderTitle = styled.h2`
 
   @media (max-width: 992px) {
     font-size: 1.5rem;
+    display: none;
   }
 `;

@@ -1,0 +1,68 @@
+// eslint-disable-next-line no-unused-vars
+import React, { useState } from "react";
+import styled from "styled-components";
+import colors from "../../colors";
+import NavBar from "./Nav";
+
+const StyledBurger = styled.div`
+  width: 3rem;
+  height: 3rem;
+  padding-right: 3rem;
+  z-index: 20;
+  display: none;
+
+  &:hover {
+    filter: drop-shadow(0 0 0.1rem ${colors.dark});
+    cursor: pointer;
+  }
+
+  @media (max-width: 992px) {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: column nowrap;
+  }
+
+  div {
+    width: 3rem;
+    height: 0.4rem;
+    background-color: ${({ open }) => (open ? `${colors.green}` : `${colors.red}`)};
+    border-radius: 10px;
+    transform-origin: -5px;
+    transition: all 0.3s;
+
+    &:nth-child(1) {
+      transform: ${({ open }) => (open ? "rotate(45deg)" : "rotate(0deg)")};
+    }
+    &:nth-child(2) {
+      transform: ${({ open }) => (open ? "translateX(100%)" : "translateX(0)")};
+      opacity: ${({ open }) => (open ? 0 : 1)};
+      transition: all 0s;
+    }
+    &:nth-child(3) {
+      transform: ${({ open }) => (open ? "rotate(-45deg)" : "rotate(0deg)")};
+    }
+  }
+`;
+
+const Burger = () => {
+  const [open, setOpen] = useState(false);
+
+  if (open) {
+    document.body.style.overflow = 'hidden';
+  } else {
+    document.body.style.overflow = 'auto';
+  }
+  
+  return (
+    <>
+      <StyledBurger open={open} onClick={() => setOpen(!open)}>
+        <div />
+        <div />
+        <div />
+      </StyledBurger>
+      <NavBar open={open} onClick={() => setOpen(!open)} />
+    </>
+  );
+};
+
+export default Burger;
