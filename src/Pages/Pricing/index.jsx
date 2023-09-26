@@ -89,8 +89,8 @@ const Pricing = () => {
             </PriceTextColumn>
             <PriceTextColumn>
               <ServiceTitleContainer>
-                <ServiceTitle>Deluxe Pawdycures</ServiceTitle>
-                <Price>$40</Price>
+                <ServiceTitle>Deluxe Pawdicure</ServiceTitle>
+                <Price>$30</Price>
               </ServiceTitleContainer>
               <ServiceDetails>
                 <ServiceListItem>
@@ -100,7 +100,7 @@ const Pricing = () => {
                   <PawIcon /> Nails Trimmed & Filed
                 </ServiceListItem>
                 <ServiceListItem>
-                  <PawIcon /> Paw Pad Massage with DoTerra Essential Oil
+                  <PawIcon /> Paw Pad Massage
                 </ServiceListItem>
               </ServiceDetails>
             </PriceTextColumn>
@@ -165,8 +165,8 @@ const Pricing = () => {
             </PriceTextColumn>
             <PriceTextColumn>
               <ServiceTitleContainer>
-                <ServiceTitle>Deluxe Pawdycures</ServiceTitle>
-                <Price>$40</Price>
+                <ServiceTitle>Deluxe Pawdicure</ServiceTitle>
+                <Price>$30</Price>
               </ServiceTitleContainer>
               <ServiceDetails>
                 <ServiceListItem>
@@ -176,7 +176,7 @@ const Pricing = () => {
                   <PawIcon /> Nails Trimmed & Filed
                 </ServiceListItem>
                 <ServiceListItem>
-                  <PawIcon /> Paw Pad Massage with DoTerra Essential Oil
+                  <PawIcon /> Paw Pad Massage
                 </ServiceListItem>
               </ServiceDetails>
             </PriceTextColumn>
@@ -247,8 +247,8 @@ const Pricing = () => {
             </PriceTextColumn>
             <PriceTextColumn>
               <ServiceTitleContainer>
-                <ServiceTitle>Deluxe Pawdycures</ServiceTitle>
-                <Price>$40</Price>
+                <ServiceTitle>Deluxe Pawdicure</ServiceTitle>
+                <Price>$30</Price>
               </ServiceTitleContainer>
               <ServiceDetails>
                 <ServiceListItem>
@@ -258,7 +258,7 @@ const Pricing = () => {
                   <PawIcon /> Nails Trimmed & Filed
                 </ServiceListItem>
                 <ServiceListItem>
-                  <PawIcon /> Paw Pad Massage with DoTerra Essential Oil
+                  <PawIcon /> Paw Pad Massage
                 </ServiceListItem>
               </ServiceDetails>
             </PriceTextColumn>
