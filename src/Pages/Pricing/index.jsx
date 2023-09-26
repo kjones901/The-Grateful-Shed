@@ -100,7 +100,7 @@ const Pricing = () => {
                   <PawIcon /> Nails Trimmed & Filed
                 </ServiceListItem>
                 <ServiceListItem>
-                  <PawIcon /> Paw Pad Massage
+                  <PawIcon /> Paw Pads Massaged
                 </ServiceListItem>
               </ServiceDetails>
             </PriceTextColumn>
@@ -176,7 +176,7 @@ const Pricing = () => {
                   <PawIcon /> Nails Trimmed & Filed
                 </ServiceListItem>
                 <ServiceListItem>
-                  <PawIcon /> Paw Pad Massage
+                  <PawIcon /> Paw Pads Massaged
                 </ServiceListItem>
               </ServiceDetails>
             </PriceTextColumn>
@@ -258,7 +258,7 @@ const Pricing = () => {
                   <PawIcon /> Nails Trimmed & Filed
                 </ServiceListItem>
                 <ServiceListItem>
-                  <PawIcon /> Paw Pad Massage
+                  <PawIcon /> Paw Pads Massaged
                 </ServiceListItem>
               </ServiceDetails>
             </PriceTextColumn>
