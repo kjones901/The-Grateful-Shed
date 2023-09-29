@@ -52,7 +52,7 @@ const Home = () => {
           <TextContainer>
             Based out of Payson, UT.
             <br />
-            Now Accepting Clients from Provo to Santaquin.
+            Now Accepting Clients from Springville to Santaquin.
             <br />
             <br />
             <br />* Discounts available if you&apos;d prefer to bring your dog to Payson.
