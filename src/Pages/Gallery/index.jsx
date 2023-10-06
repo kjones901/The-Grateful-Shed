@@ -10,6 +10,9 @@ import Before4 from "../../assets/Gbefore4.jpeg";
 import After4 from "../../assets/Gafter4.jpeg";
 import Before5 from "../../assets/Gbefore5.jpeg";
 import After5 from "../../assets/Gafter5.jpeg";
+import Halloween1 from "../../assets/Halloween1.jpeg";
+import Halloween2 from "../../assets/Halloween2.jpeg";
+
 import { AfterImg, BeforeImg, GalleryBackground, GalleryCard, GallerySubtitle, GalleryTitle } from "./styled";
 
 const Gallery = () => {
@@ -19,8 +22,8 @@ const Gallery = () => {
         <GalleryTitle>Gallery</GalleryTitle>
         <GallerySubtitle>&quot;Stay Trippy, Little Yippy!&quot;</GallerySubtitle>
         <GalleryCard>
-          <BeforeImg src={Before5} />
-          <AfterImg src={After5} />
+          <BeforeImg src={Halloween1} />
+          <AfterImg src={Halloween2} />
         </GalleryCard>
         <GalleryCard>
           <BeforeImg src={Before4} />
@@ -37,6 +40,10 @@ const Gallery = () => {
         <GalleryCard>
           <BeforeImg src={Before1} />
           <AfterImg src={After1} />
+        </GalleryCard>
+        <GalleryCard>
+          <BeforeImg src={Before5} />
+          <AfterImg src={After5} />
         </GalleryCard>
         <Footer />
       </GalleryBackground>
