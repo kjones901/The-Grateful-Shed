@@ -4,6 +4,7 @@ import { PageContainer } from "../pageStyled";
 import SmallDogImg from "../../assets/pricing-small-dog.jpeg";
 import MedDogImg from "../../assets/pricing-medium-dog.jpeg";
 import LargeDogImg from "../../assets/pricing-large-dog.jpeg";
+import colors from "../../colors";
 import {
   AboutText,
   AboutTextSub,
@@ -26,7 +27,7 @@ const Pricing = () => {
   return (
     <PageContainer>
       <Header />
-      <AboutText>By appointment only: CALL or TEXT to book - 801-696-2233</AboutText>
+      <AboutText>By appointment only.<br/>CALL or TEXT to book - <a href="tel:number" style={{ color: colors.red }}>801.696.2233</a></AboutText>
       <AboutTextSub>* Additional charges may apply for poodle mixes.</AboutTextSub>
       <PriceContainer>
         <ImageContainer>
