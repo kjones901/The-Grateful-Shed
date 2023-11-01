@@ -27,9 +27,9 @@ const Pricing = () => {
     <PageContainer>
       <Header />
       <AboutText>
-        By Appointment Only:
+        By Appointment Only: 801-696-2233
         <br />
-        <a href="tel:801-696-2233">CALL</a> or
+        <a href="tel:801-696-2233">CALL </a> or
         <a href="sms:801-696-2233"> TEXT</a> to book.
       </AboutText>
       <AboutTextSub>* Additional charges may apply for poodle mixes.</AboutTextSub>
