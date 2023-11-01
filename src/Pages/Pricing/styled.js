@@ -152,6 +152,11 @@ export const ServiceListItem = styled.li`
 
 export const AboutText = styled.h3`
   padding: 1rem;
+
+  a{
+    font-size: 1.4rem;
+    color: ${colors.red};
+  }
 `;
 
 export const AboutTextSub = styled.h5`

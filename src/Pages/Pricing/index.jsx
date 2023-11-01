@@ -27,7 +27,12 @@ const Pricing = () => {
   return (
     <PageContainer>
       <Header />
-      <AboutText>By appointment only.<br/>CALL or TEXT to book - <a href="tel:number" style={{ color: colors.red }}>801.696.2233</a></AboutText>
+      <AboutText>
+        By Appointment Only:
+        <br />
+        <a href="tel:801-696-2233">CALL</a> or
+        <a href="sms:801-696-2233"> TEXT</a> to book.
+      </AboutText>
       <AboutTextSub>* Additional charges may apply for poodle mixes.</AboutTextSub>
       <PriceContainer>
         <ImageContainer>
