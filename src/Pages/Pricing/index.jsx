@@ -4,7 +4,6 @@ import { PageContainer } from "../pageStyled";
 import SmallDogImg from "../../assets/pricing-small-dog.jpeg";
 import MedDogImg from "../../assets/pricing-medium-dog.jpeg";
 import LargeDogImg from "../../assets/pricing-large-dog.jpeg";
-import colors from "../../colors";
 import {
   AboutText,
   AboutTextSub,
