@@ -7,7 +7,9 @@ import NavBar from "./Nav";
 const StyledBurger = styled.div`
   width: 3rem;
   height: 3rem;
-  padding-right: 3rem;
+  position: absolute;
+  right: 20px;
+  top: 25px;
   z-index: 20;
   display: none;
 
@@ -25,7 +27,7 @@ const StyledBurger = styled.div`
   div {
     width: 3rem;
     height: 0.4rem;
-    background-color: ${({ open }) => (open ? `${colors.green}` : `${colors.red}`)};
+    background-color: ${colors.red};
     border-radius: 10px;
     transform-origin: -5px;
     transition: all 0.3s;
@@ -34,9 +36,7 @@ const StyledBurger = styled.div`
       transform: ${({ open }) => (open ? "rotate(45deg)" : "rotate(0deg)")};
     }
     &:nth-child(2) {
-      transform: ${({ open }) => (open ? "translateX(100%)" : "translateX(0)")};
       opacity: ${({ open }) => (open ? 0 : 1)};
-      transition: all 0s;
     }
     &:nth-child(3) {
       transform: ${({ open }) => (open ? "rotate(-45deg)" : "rotate(0deg)")};

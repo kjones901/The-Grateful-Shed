@@ -8,7 +8,6 @@ export const HeaderContainer = styled.section`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  min-height: 15vh;
   width: 100vw;
   background: ${colors.light};
 
@@ -16,8 +15,8 @@ export const HeaderContainer = styled.section`
     width: 100vw;
     padding: 0px;
     margin: 0px;
-    justify-content: space-between;
     flex-direction: column;
+    align-items: flex-start;
   }
   `;
 
@@ -28,13 +27,13 @@ export const NavContainer = styled.nav`
   align-items: center;
   
   @media (max-width: 992px) {
-    display: ${({open}) => open ? 'flex' : 'none'};
+    height: ${({open}) => open ? '250px' : '0px'};
     flex-direction: column;
     width: 100vw;
     gap: .5rem;
-    padding-top: .5rem;
-    padding-bottom: .5rem;
     background-color: ${colors.light};
+    overflow: hidden;
+    transition: height .3s;
   }
 `;
 
@@ -63,6 +62,10 @@ export const Logo = styled.img.attrs({
   height: 6rem;
   padding: 0.6rem;
   border-radius: 2rem;
+
+  @media (max-width: 992px) {
+    height: 5.1rem;
+  }
 `;
 
 export const LogoContainer = styled(Link)`
@@ -76,20 +79,18 @@ export const LogoContainer = styled(Link)`
   }
 
    @media (max-width: 992px) {
-    padding-left: 1.5rem;
+    padding-left: .3rem;
   }
 
 `;
 
 export const HeaderTitle = styled.h2`
   text-decoration: none;
-  padding: 0.8rem;
   font-size: 2rem;
   font-weight: 20;
   color: black;
 
   @media (max-width: 992px) {
-    font-size: 1.5rem;
-    display: none;
+    font-size: 1.1rem;
   }
 `;
