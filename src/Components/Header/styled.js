@@ -16,8 +16,11 @@ export const HeaderContainer = styled.section`
     width: 100vw;
     padding: 0px;
     margin: 0px;
+    justify-content: space-between;
+    flex-direction: column;
   }
   `;
+
 
 export const NavContainer = styled.nav`
   display: flex;
@@ -25,22 +28,20 @@ export const NavContainer = styled.nav`
   align-items: center;
   
   @media (max-width: 992px) {
-    transform: ${({open}) => open ? 'translateX(0)' : 'translateX(100%)'};
+    display: ${({open}) => open ? 'flex' : 'none'};
     flex-direction: column;
-    position: fixed;
-    right: 0px;
-    top: 0px;
     width: 100vw;
-    gap: 2rem;
-    height: 100vh;
+    gap: .5rem;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
     background-color: ${colors.light};
-    transition: transform 0.3s ease-in-out;
   }
 `;
 
 export const NavLinks = styled(Link)`
   font-size: 1.5rem;
   color: black;
+  padding-right: 1rem;
 
   &:hover {
     filter: drop-shadow(0 0 0.1rem ${colors.green});
@@ -48,10 +49,11 @@ export const NavLinks = styled(Link)`
   }
 
   @media (max-width: 992px) {
-    width: 200px;
+    width: 95vw;
+    padding: 0%;
+    background-color: ${colors.dark};
     border: 2px solid black;
     border-radius: 0.3rem;
-
   }
 `;
 

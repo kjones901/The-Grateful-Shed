@@ -4,6 +4,7 @@ import { NavLinks, NavContainer } from "./styled";
 
 // eslint-disable-next-line react/prop-types
 const NavBar = ({open}) => {
+  
   return (
     <NavContainer open = {open}>
       <NavLinks to="/">Home</NavLinks>

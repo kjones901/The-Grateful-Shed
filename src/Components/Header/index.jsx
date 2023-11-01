@@ -1,21 +1,16 @@
 import Burger from "./Burger";
 
-import {
-  HeaderContainer,
-  Logo,
-  LogoContainer,
-  HeaderTitle,
-} from "./styled";
+import { HeaderContainer, Logo, LogoContainer, HeaderTitle } from "./styled";
 
 const Header = () => {
   return (
-    <HeaderContainer>
-      <LogoContainer to ="/">
+      <HeaderContainer>
+        <LogoContainer to="/">
           <Logo />
-        <HeaderTitle>Mobile Grooming</HeaderTitle>
-      </LogoContainer>
-      <Burger />
-    </HeaderContainer>
+          <HeaderTitle>Mobile Grooming</HeaderTitle>
+        </LogoContainer>
+          <Burger />
+      </HeaderContainer>
   );
 };
 
