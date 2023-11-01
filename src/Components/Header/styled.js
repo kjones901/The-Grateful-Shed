@@ -8,35 +8,39 @@ export const HeaderContainer = styled.section`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  min-height: 15vh;
   width: 100vw;
   background: ${colors.light};
 
   @media (max-width: 992px) {
-    flex-direction: column;
     width: 100vw;
     padding: 0px;
     margin: 0px;
-  }
-`;
-
-export const NavContainer = styled.div`
-  display: flex;
-  padding-right: 2rem;
-  gap: 2rem;
-  justify-content: center;
-  align-items: center;
-
-  @media (max-width: 992px) {
-    padding: 1rem;
     flex-direction: column;
-    gap: 0.5rem;
+    align-items: flex-start;
+  }
+  `;
+
+
+export const NavContainer = styled.nav`
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  
+  @media (max-width: 992px) {
+    height: ${({open}) => open ? '250px' : '0px'};
+    flex-direction: column;
+    width: 100vw;
+    gap: .5rem;
+    background-color: ${colors.light};
+    overflow: hidden;
+    transition: height .3s;
   }
 `;
 
 export const NavLinks = styled(Link)`
   font-size: 1.5rem;
   color: black;
+  padding-right: 1rem;
 
   &:hover {
     filter: drop-shadow(0 0 0.1rem ${colors.green});
@@ -44,7 +48,9 @@ export const NavLinks = styled(Link)`
   }
 
   @media (max-width: 992px) {
-    width: 90vw;
+    width: 95vw;
+    padding: 0%;
+    background-color: ${colors.dark};
     border: 2px solid black;
     border-radius: 0.3rem;
   }
@@ -56,6 +62,10 @@ export const Logo = styled.img.attrs({
   height: 6rem;
   padding: 0.6rem;
   border-radius: 2rem;
+
+  @media (max-width: 992px) {
+    height: 5.1rem;
+  }
 `;
 
 export const LogoContainer = styled(Link)`
@@ -68,20 +78,19 @@ export const LogoContainer = styled(Link)`
     cursor: pointer;
   }
 
-  @media (max-width: 992px) {
-    width: 100vw;
-    background-color: ${colors.dark};
+   @media (max-width: 992px) {
+    padding-left: .3rem;
   }
+
 `;
 
 export const HeaderTitle = styled.h2`
   text-decoration: none;
-  padding: 0.8rem;
   font-size: 2rem;
   font-weight: 20;
   color: black;
 
   @media (max-width: 992px) {
-    font-size: 1.5rem;
+    font-size: 1.1rem;
   }
 `;
