@@ -35,5 +35,10 @@ export const FooterLink = styled.i`
 	}
 `
 
+export const FooterLinkContainer = styled.div`
+	display: flex;
+	flex-direction: row;
+`
+
 
 

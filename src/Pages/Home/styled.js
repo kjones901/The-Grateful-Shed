@@ -110,6 +110,28 @@ export const HomeTextContainer = styled.div`
   }
 `;
 
+export const AlertTextContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: justify;
+  width: 95vw;
+  padding: 2rem;
+  font-size: 1.2rem;
+  border: solid 5px ${colors.red};
+  color: ${colors.red};
+  margin-top: 5px;
+
+  @media (max-width: 992px) {
+    max-width: 90vw;
+  }
+
+  @media (max-width: 550px) {
+    margin-top: 160px;
+  }
+`;
+
 export const MapContainer = styled.div`
   display: flex;
   justify-content: space-evenly;
