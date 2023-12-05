@@ -116,16 +116,11 @@ export const AlertTextContainer = styled.div`
   align-items: center;
   justify-content: center;
   text-align: justify;
-  width: 95vw;
   padding: 2rem;
   font-size: 1.2rem;
   border: solid 5px ${colors.red};
   color: ${colors.red};
-  margin-top: 5px;
-
-  @media (max-width: 992px) {
-    max-width: 90vw;
-  }
+  margin: 5px;
 
   @media (max-width: 550px) {
     margin-top: 160px;
