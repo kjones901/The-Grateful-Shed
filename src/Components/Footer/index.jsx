@@ -12,7 +12,7 @@ const Footer = () => {
         - The Grateful Shed - Serving South Utah County
       </FooterText>
       <FooterText>
-        Love what we do? Help us out by leaving a quick
+        Love what I do? Help me out by leaving a quick
         <a
           href="https://www.google.com/maps/place/The+Grateful+Shed,LLC/@40.0377238,-111.7523745,17z/data=!4m14!1m7!3m6!1s0x874da510f61f6767:0xb2bd109c2bbf87a!2sThe+Grateful+Shed,LLC!8m2!3d40.0377197!4d-111.7497996!16s%2Fg%2F11l6c1yn91!3m5!1s0x874da510f61f6767:0xb2bd109c2bbf87a!8m2!3d40.0377197!4d-111.7497996!16s%2Fg%2F11l6c1yn91?entry=ttu
         "
