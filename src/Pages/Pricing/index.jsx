@@ -38,7 +38,7 @@ const Pricing = () => {
           <SizeImage src={SmallDogImg} />
         </ImageContainer>
         <PriceTextContainer>
-          <DogSize>Small Dogs &#40;&#60; 20lbs&#41;</DogSize>
+          <DogSize>Small Dogs &#40;20-30lbs&#41;</DogSize>
           <ServicesPricingContainer>
             <PriceTextColumn>
               <ServiceTitleContainer>
@@ -114,7 +114,7 @@ const Pricing = () => {
       </PriceContainer>
       <PriceContainer>
         <PriceTextContainer>
-          <DogSize>Medium Dogs &#40;20-55lbs&#41;</DogSize>
+          <DogSize>Medium Dogs &#40;30-60lbs&#41;</DogSize>
           <ServicesPricingContainer>
             <PriceTextColumn>
               <ServiceTitleContainer>
@@ -196,7 +196,7 @@ const Pricing = () => {
           <SizeImage src={LargeDogImg} />
         </ImageContainer>
         <PriceTextContainer>
-          <DogSize>Large Dogs &#40;Depending on size & breed&#41;</DogSize>
+          <DogSize>Large Dogs &#40;&gt;60lbs&#41;</DogSize>
           <ServicesPricingContainer>
             <PriceTextColumn>
               <ServiceTitleContainer>
