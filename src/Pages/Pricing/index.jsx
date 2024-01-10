@@ -95,7 +95,7 @@ const Pricing = () => {
             <PriceTextColumn>
               <ServiceTitleContainer>
                 <ServiceTitle>Deluxe Pawdicure</ServiceTitle>
-                <Price>$30</Price>
+                <Price>$40</Price>
               </ServiceTitleContainer>
               <ServiceDetails>
                 <ServiceListItem>
@@ -171,7 +171,7 @@ const Pricing = () => {
             <PriceTextColumn>
               <ServiceTitleContainer>
                 <ServiceTitle>Deluxe Pawdicure</ServiceTitle>
-                <Price>$30</Price>
+                <Price>$40</Price>
               </ServiceTitleContainer>
               <ServiceDetails>
                 <ServiceListItem>
@@ -253,7 +253,7 @@ const Pricing = () => {
             <PriceTextColumn>
               <ServiceTitleContainer>
                 <ServiceTitle>Deluxe Pawdicure</ServiceTitle>
-                <Price>$30</Price>
+                <Price>$40</Price>
               </ServiceTitleContainer>
               <ServiceDetails>
                 <ServiceListItem>
