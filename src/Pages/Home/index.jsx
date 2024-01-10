@@ -39,7 +39,7 @@ const Home = () => {
         <HomeTextContainer>
           &quot;The Grateful Shed&quot; – where convenience meets canine comfort. With a
           freshly renovated and roomy mobile dog bus, I offer nothing short of top of the
-          line pampering for your beloved four-legged friend, no matter their size. My
+          line pampering for your beloved four-legged friend. My
           mission goes beyond just bringing grooming to your doorstep; it&apos;s about
           providing the undivided attention and personalized care that your cherished
           companion deserves. Welcome to a world of tail-wagging transformations and a
