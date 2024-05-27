@@ -2,7 +2,7 @@ import styled from "styled-components";
 import colors from "../../colors";
 
 import AwardBannerImg from "../../assets/award-banner-one.png";
-import LogoImg from "../../assets/logo.png";
+// import LogoImg from "../../assets/logo.png";
 import AwardRibbonImg from "../../assets/award-ribbon.jpg";
 
 import BackgroundSrc from "../../assets/background-groovy-blurred.png";
@@ -110,7 +110,7 @@ export const SmallLogoWrapper = styled.div`
 `;
 
 export const SmallLogo = styled.img.attrs({
-  src: `${LogoImg}`,
+  src: `${AwardRibbonImg}`,
 })`
   @media (max-width: 550px) {
     width: 9rem;
@@ -197,12 +197,11 @@ export const BusImage = styled.img`
 export const AwardBanner = styled.img.attrs({
   src: `${AwardBannerImg}`,
 })`
-  width: 50vw;
+  width: 60vw;
   padding: 1rem;
-  border-radius: 18px;
 
   @media (max-width: 992px) {
-    width: 22rem;
+    width: 70vw;
     padding: 0.5rem;
   }
 `;
