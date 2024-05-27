@@ -38,7 +38,6 @@ export const TextContainer = styled.div`
 export const TextAndImageContainer = styled.div`
   display: flex;
   width: 95vw;
-  margin-top: 2rem;
 
   @media (max-width: 992px) {
     flex-direction: column;

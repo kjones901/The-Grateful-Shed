@@ -1,7 +1,10 @@
 import styled from "styled-components";
 import colors from "../../colors";
 
+import AwardBannerImg from "../../assets/award-banner-one.png";
 import LogoImg from "../../assets/logo.png";
+import AwardRibbonImg from "../../assets/award-ribbon.jpg";
+
 import BackgroundSrc from "../../assets/background-groovy-blurred.png";
 
 
@@ -57,8 +60,26 @@ export const BannerTitle = styled.h1`
   }
 `;
 
-export const Logo = styled.img.attrs({
-  src: `${LogoImg}`,
+// export const Logo = styled.img.attrs({
+//   src: `${LogoImg}`,
+// })`
+//   height: 25rem;
+//   width: 24rem;
+//   padding: 1rem;
+
+//   @media (max-width: 992px) {
+//     height: 23rem;
+//     width: 22rem;
+//     padding: 0.5rem;
+//   }
+
+//   @media (max-width: 550px) {
+//     display: none;
+//   }
+// `;
+
+export const AwardRibbon = styled.img.attrs({
+  src: `${AwardRibbonImg}`,
 })`
   height: 25rem;
   width: 24rem;
@@ -172,3 +193,16 @@ export const ServiceTitle = styled.h1`
 export const BusImage = styled.img`
   width: 100vw;
 `
+
+export const AwardBanner = styled.img.attrs({
+  src: `${AwardBannerImg}`,
+})`
+  width: 50vw;
+  padding: 1rem;
+  border-radius: 18px;
+
+  @media (max-width: 992px) {
+    width: 22rem;
+    padding: 0.5rem;
+  }
+`;

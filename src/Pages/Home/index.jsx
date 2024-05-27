@@ -2,7 +2,7 @@ import Footer from "../../Components/Footer";
 import Header from "../../Components/Header";
 import { PageContainer, TextContainer, TextAndImageContainer } from "../pageStyled";
 import {
-  Logo,
+  // Logo,
   TitleContainer,
   BusImage,
   BannerTitle,
@@ -11,10 +11,12 @@ import {
   ServiceTextContainer,
   ServiceTitle,
   SmallScreenBannerTitle,
+  AwardRibbon,
   SmallLogo,
   SmallLogoWrapper,
   SmallScreenBannerTitleWrapper,
   HomeTextContainer,
+  AwardBanner,
 } from "./styled";
 import Map from "../../assets/service-area-map.png";
 import BusImg from "../../assets/bus-img-wide2.jpg";
@@ -45,8 +47,9 @@ const Home = () => {
           companion deserves. Welcome to a world of tail-wagging transformations and a
           truly grateful pup.
         </HomeTextContainer>
-        <Logo />
+        <AwardRibbon />
       </TextAndImageContainer>
+      <AwardBanner/>
       <MapContainer>
         <ServiceTextContainer>
           <ServiceTitle>Service Area</ServiceTitle>

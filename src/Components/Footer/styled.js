@@ -1,6 +1,7 @@
 import styled from 'styled-components'
 import colors from '../../colors'
 
+// import AwardRibbonImg from "../../assets/award-ribbon.jpg";
 
 
 export const FooterContainer = styled.section`
@@ -40,5 +41,12 @@ export const FooterLinkContainer = styled.div`
 	flex-direction: row;
 `
 
-
+// export const AwardRibbon = styled.img.attrs({
+// 	src: `${AwardRibbonImg}`,
+//   })`
+// 	height: 6rem;
+  
+// 	@media (max-width: 992px) {
+// 	}
+//   `;
 

@@ -1,5 +1,7 @@
-import { FooterContainer, FooterLinkContainer, FooterText, FooterLink } from "./styled";
+import { FooterContainer, FooterLinkContainer, FooterText, FooterLink} from "./styled";
 import colors from "../../colors";
+
+
 
 const Footer = () => {
   return (
