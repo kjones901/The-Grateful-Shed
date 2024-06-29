@@ -39,6 +39,7 @@ const Pricing = () => {
         </ImageContainer>
         <PriceTextContainer>
           <DogSize>Small Dogs &#40;20-30lbs&#41;</DogSize>
+          <AboutTextSub>* I specialize in grooming larger dogs, but feel free to reach out if you have a smaller dog and we can determine if it&apos;s a good fit.</AboutTextSub>
           <ServicesPricingContainer>
             <PriceTextColumn>
               <ServiceTitleContainer>
