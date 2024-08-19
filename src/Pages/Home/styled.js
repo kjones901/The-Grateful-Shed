@@ -5,7 +5,7 @@ import AwardBannerImg from "../../assets/award-banner-one.png";
 // import LogoImg from "../../assets/logo.png";
 import AwardRibbonImg from "../../assets/award-ribbon.jpg";
 
-import BackgroundSrc from "../../assets/background-groovy-blurred.png";
+import BackgroundSrc from "../../assets/tie-dye-banner.jpg";
 
 
 
@@ -82,12 +82,10 @@ export const AwardRibbon = styled.img.attrs({
   src: `${AwardRibbonImg}`,
 })`
   height: 25rem;
-  width: 24rem;
   padding: 1rem;
 
   @media (max-width: 992px) {
     height: 23rem;
-    width: 22rem;
     padding: 0.5rem;
   }
 

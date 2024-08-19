@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import LogoSrc from "../../assets/logo-small.png";
 
 export const HeaderContainer = styled.section`
-  font-family: "Shrikhand";
+  
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -23,11 +23,11 @@ export const HeaderContainer = styled.section`
 
 export const NavContainer = styled.nav`
   display: flex;
-  gap: 2rem;
+  /* gap: 2rem; */
   align-items: center;
   
   @media (max-width: 992px) {
-    height: ${({open}) => open ? '250px' : '0px'};
+    height: ${({open}) => open ? '290px' : '0px'};
     flex-direction: column;
     width: 100vw;
     gap: .5rem;
@@ -38,17 +38,20 @@ export const NavContainer = styled.nav`
 `;
 
 export const NavLinks = styled(Link)`
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   color: black;
-  padding-right: 1rem;
+  padding-right: 1.5rem;
 
   &:hover {
-    filter: drop-shadow(0 0 0.1rem ${colors.green});
+    /* filter: drop-shadow(0 0 0.1rem ${colors.green}); */
+    color: white;
     cursor: pointer;
   }
 
   @media (max-width: 992px) {
     width: 95vw;
+    font-size: 1.5rem;
+    padding-right: 1rem;
     padding: 0%;
     background-color: ${colors.dark};
     border: 2px solid black;
@@ -74,7 +77,6 @@ export const LogoContainer = styled(Link)`
   text-decoration: none;
 
   &:hover {
-    filter: drop-shadow(0 0 0.1rem ${colors.green});
     cursor: pointer;
   }
 
@@ -85,12 +87,13 @@ export const LogoContainer = styled(Link)`
 `;
 
 export const HeaderTitle = styled.h2`
+font-family: "Shrikhand";
   text-decoration: none;
-  font-size: 2rem;
+  font-size: 2.5vw;
   font-weight: 20;
   color: black;
 
   @media (max-width: 992px) {
-    font-size: 1.1rem;
+    font-size: 4vw;
   }
 `;

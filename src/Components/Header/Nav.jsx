@@ -10,6 +10,7 @@ const NavBar = ({open}) => {
       <NavLinks to="/">Home</NavLinks>
       <NavLinks to="/gallery">Gallery</NavLinks>
       <NavLinks to="/pricing">Pricing</NavLinks>
+      <NavLinks to="/health">Dog Health</NavLinks>
       <NavLinks to="/policies">Policies</NavLinks>
       <NavLinks to="/about">About Me</NavLinks>
     </NavContainer>
