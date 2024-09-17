@@ -129,23 +129,6 @@ export const HomeTextContainer = styled.div`
   }
 `;
 
-export const AlertTextContainer = styled.div`
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: justify;
-  padding: 2rem;
-  font-size: 1.2rem;
-  border: solid 5px ${colors.red};
-  color: ${colors.red};
-  margin: 5px;
-
-  @media (max-width: 550px) {
-    margin-top: 160px;
-  }
-`;
-
 export const MapContainer = styled.div`
   display: flex;
   justify-content: space-evenly;
@@ -201,5 +184,19 @@ export const AwardBanner = styled.img.attrs({
   @media (max-width: 992px) {
     width: 70vw;
     padding: 0.5rem;
+  }
+`;
+
+export const AnnouncementContainer = styled.div`
+  display: block;
+  width: 70vw;
+  background-color: rgba(128, 0, 128, 0.1);
+  border-radius: .4rem;
+  margin-top: 3rem;
+  padding: 1rem;
+  font-size: larger;
+
+  @media (max-width: 550px) {
+    margin-top: 10rem;
   }
 `;

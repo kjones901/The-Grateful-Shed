@@ -17,6 +17,7 @@ import {
   SmallScreenBannerTitleWrapper,
   HomeTextContainer,
   AwardBanner,
+  AnnouncementContainer,
 } from "./styled";
 import Map from "../../assets/service-area-map.png";
 import BusImg from "../../assets/bus-img-wide2.jpg";
@@ -37,26 +38,33 @@ const Home = () => {
           <SmallLogo />
         </SmallLogoWrapper>
       </TitleContainer>
+      <AnnouncementContainer>
+        Happy One-Year Anniversary! 🎉 Thank you for sharing your furry friends with me
+        over the past year. I&apos;m excited to celebrate this milestone with all of you! I&apos;d
+        like to let everyone know that, moving forward, I will no longer be accepting new
+        clients north of Spanish Fork. Please rest assured that this change does
+        not affect any of my existing clients. Thank you for your understanding and
+        continued support!
+      </AnnouncementContainer>
       <TextAndImageContainer>
         <HomeTextContainer>
-          &quot;The Grateful Shed&quot; – where convenience meets canine comfort. With a
+          &quot;The Grateful Shed&quot; - where convenience meets canine comfort. With a
           freshly renovated and roomy mobile dog bus, I offer nothing short of top of the
-          line pampering for your beloved four-legged friend. My
-          mission goes beyond just bringing grooming to your doorstep; it&apos;s about
-          providing the undivided attention and personalized care that your cherished
-          companion deserves. Welcome to a world of tail-wagging transformations and a
-          truly grateful pup.
+          line pampering for your beloved four-legged friend. My mission goes beyond just
+          bringing grooming to your doorstep; it&apos;s about providing the undivided
+          attention and personalized care that your cherished companion deserves. Welcome
+          to a world of tail-wagging transformations and a truly grateful pup.
         </HomeTextContainer>
         <AwardRibbon />
       </TextAndImageContainer>
-      <AwardBanner/>
+      <AwardBanner />
       <MapContainer>
         <ServiceTextContainer>
           <ServiceTitle>Service Area</ServiceTitle>
           <TextContainer>
             Based out of Payson, UT.
             <br />
-            Now Accepting Clients from Springville to Santaquin.
+            Accepting Clients from Spanish Fork to Santaquin.
             <br />
             <br />
             <br />* Discounts available if you&apos;d prefer to bring your dog to Payson.
