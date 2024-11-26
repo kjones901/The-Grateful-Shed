@@ -1,7 +1,7 @@
 import Footer from "../../Components/Footer";
 import Header from "../../Components/Header";
 import { PageContainer } from "../pageStyled";
-import SmallDogImg from "../../assets/pricing-small-dog.jpeg";
+// import SmallDogImg from "../../assets/pricing-small-dog.jpeg";
 import MedDogImg from "../../assets/pricing-medium-dog.jpeg";
 import LargeDogImg from "../../assets/pricing-large-dog.jpeg";
 import {
@@ -33,7 +33,8 @@ const Pricing = () => {
         <a href="sms:801-696-2233"> TEXT</a> to book.
       </AboutText>
       <AboutTextSub>* Additional charges may apply for poodle mixes.</AboutTextSub>
-      <PriceContainer>
+      <AboutTextSub>* I specialize in grooming larger dogs, but feel free to reach out if you have a smaller dog and we can determine if it&apos;s a good fit.</AboutTextSub>
+      {/* <PriceContainer>
         <ImageContainer>
           <SizeImage src={SmallDogImg} />
         </ImageContainer>
@@ -112,7 +113,7 @@ const Pricing = () => {
             </PriceTextColumn>
           </ServicesPricingContainer>
         </PriceTextContainer>
-      </PriceContainer>
+      </PriceContainer> */}
       <PriceContainer>
         <PriceTextContainer>
           <DogSize>Medium Dogs &#40;30-60lbs&#41;</DogSize>
