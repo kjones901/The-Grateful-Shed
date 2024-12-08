@@ -40,10 +40,10 @@ const Home = () => {
       </TitleContainer>
       <AnnouncementContainer>
         Happy One-Year Anniversary! 🎉 Thank you for sharing your furry friends with me
-        over the past year. I&apos;m excited to celebrate this milestone with all of you! I&apos;d
-        like to let everyone know that, moving forward, I will no longer be accepting new
-        clients north of Spanish Fork. Please rest assured that this change does
-        not affect any of my existing clients. Thank you for your understanding and
+        over the past year. I&apos;m excited to celebrate this milestone with all of you!
+        I&apos;d like to let everyone know that, moving forward, I will no longer be
+        accepting new clients north of Spanish Fork. Please rest assured that this change
+        does not affect any of my existing clients. Thank you for your understanding and
         continued support!
       </AnnouncementContainer>
       <TextAndImageContainer>
@@ -60,14 +60,19 @@ const Home = () => {
       <AwardBanner />
       <MapContainer>
         <ServiceTextContainer>
-          <ServiceTitle>Service Area</ServiceTitle>
+          <ServiceTitle>Service Details</ServiceTitle>
           <TextContainer>
             Based out of Payson, UT.
+            <br />
             <br />
             Accepting Clients from Spanish Fork to Santaquin.
             <br />
             <br />
-            <br />* Discounts available if you&apos;d prefer to bring your dog to Payson.
+             Service Days: Tuesday, Wednesday, Thursday, Saturday.
+            <br />
+            <br />
+            <br />
+            * Discounts available if you&apos;d prefer to bring your dog to Payson.
           </TextContainer>
         </ServiceTextContainer>
         <ServiceMap src={Map} />

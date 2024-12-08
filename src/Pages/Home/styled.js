@@ -200,3 +200,8 @@ export const AnnouncementContainer = styled.div`
     margin-top: 10rem;
   }
 `;
+
+export const PawIcon = styled.i.attrs({ className: "fa-solid fa-paw" })`
+  color: #403f3c;
+  font-size: 1rem;
+`;
