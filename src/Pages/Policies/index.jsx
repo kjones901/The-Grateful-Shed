@@ -44,9 +44,8 @@ const Policies = () => {
         </PolicyText>
         <PolicySubTitle>4. Cancellation Policy:</PolicySubTitle>
         <PolicyText>
-          All appointments must be canceled with at least 24 hours&apos; notice.
-          Appointments canceled with less than 24 hours&apos; notice will be subject to a
-          $50 cancellation fee.
+          I kindly ask that all appointments be canceled at least 24 hours in advance.
+          Cancellations made with less than 24 hours&apos; notice will incur a fee equal to 50% of the scheduled grooming price.
         </PolicyText>
         <PolicySubText>
           Thank you for choosing The Grateful Shed for your dog&apos;s grooming needs. I
