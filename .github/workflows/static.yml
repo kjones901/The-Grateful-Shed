@@ -41,8 +41,9 @@ jobs:
         run: npm run build
 
       - name: Upload build output
-        uses: actions/upload-pages-artifact@v3 # Updated to v3
+        uses: actions/upload-artifact@v4 # Use actions/upload-artifact@v4
         with:
+          name: github-pages # Name the artifact "github-pages"
           path: './dist'
 
   deploy:
@@ -53,11 +54,13 @@ jobs:
 
     steps:
       - name: Download build artifact
-        uses: actions/download-pages-artifact@v3 # Updated to v3
+        uses: actions/download-artifact@v4 # Use actions/download-artifact@v4
+        with:
+          name: github-pages # Specify the artifact name to download
 
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v4 # Updated to v4
+        uses: actions/deploy-pages@v4 # Use actions/deploy-pages@v4
 
 # # Simple workflow for deploying static content to GitHub Pages
 # name: Deploy static content to Pages
