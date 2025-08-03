@@ -72,7 +72,7 @@ const Home = () => {
             <br />
             <br />
             <br />
-            * Discounts available if you&apos;d prefer to bring your dog to Payson.
+            * I don&apos;t take walk-ins, however, discounts are available if you&apos;d prefer to bring your dog to Payson.
           </TextContainer>
         </ServiceTextContainer>
         <ServiceMap src={Map} />
