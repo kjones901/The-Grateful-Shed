@@ -16,17 +16,20 @@ import {
   SmallLogoWrapper,
   SmallScreenBannerTitleWrapper,
   HomeTextContainer,
-  AwardBanner,
-  AnnouncementContainer,
+  // AwardBanner,
+  Announcement,
 } from "./styled";
 import Map from "../../assets/service-area-map.png";
 import BusImg from "../../assets/bus-img-wide2.jpg";
+import AnnouncementImg from "../../assets/gift-certificate.jpg";
+
+
+
 
 const Home = () => {
   return (
     <PageContainer>
       <Header />
-
       <TitleContainer>
         <BannerTitle>THE GRATEFUL SHED</BannerTitle>
         <SmallScreenBannerTitleWrapper>
@@ -38,14 +41,6 @@ const Home = () => {
           <SmallLogo />
         </SmallLogoWrapper>
       </TitleContainer>
-      <AnnouncementContainer>
-        Happy One-Year Anniversary! 🎉 Thank you for sharing your furry friends with me
-        over the past year. I&apos;m excited to celebrate this milestone with all of you!
-        I&apos;d like to let everyone know that, moving forward, I will no longer be
-        accepting new clients north of Spanish Fork. Please rest assured that this change
-        does not affect any of my existing clients. Thank you for your understanding and
-        continued support!
-      </AnnouncementContainer>
       <TextAndImageContainer>
         <HomeTextContainer>
           &quot;The Grateful Shed&quot; - where convenience meets canine comfort. With a
@@ -57,7 +52,14 @@ const Home = () => {
         </HomeTextContainer>
         <AwardRibbon />
       </TextAndImageContainer>
-      <AwardBanner />
+         <Announcement>
+          <h2>Gift Certificates Are Available</h2>
+
+           <p>Perfect for holidays, birthdays, and special occasions.</p>
+
+           <img src={AnnouncementImg} alt="Gift certificate for The Grateful Shed Grooming"/>
+          </Announcement>
+      {/* <AwardBanner /> */}
       <MapContainer>
         <ServiceTextContainer>
           <ServiceTitle>Service Details</ServiceTitle>

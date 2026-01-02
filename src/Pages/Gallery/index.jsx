@@ -10,8 +10,7 @@ import Before4 from "../../assets/Gbefore4.jpeg";
 import After4 from "../../assets/Gafter4.jpeg";
 import Before5 from "../../assets/Gbefore5.jpeg";
 import After5 from "../../assets/Gafter5.jpeg";
-import G6 from "../../assets/G6.jpeg";
-import G7 from "../../assets/G7.jpeg";
+
 
 import {
   AfterImg,
@@ -39,10 +38,6 @@ const Gallery = () => {
       <GalleryCard>
         <BeforeImg src={Before3} />
         <AfterImg src={After3} />
-      </GalleryCard>
-      <GalleryCard>
-        <BeforeImg src={G6} />
-        <AfterImg src={G7} />
       </GalleryCard>
       <GalleryCard>
         <BeforeImg src={Before5} />

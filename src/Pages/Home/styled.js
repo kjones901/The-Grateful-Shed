@@ -4,7 +4,6 @@ import colors from "../../colors";
 import AwardBannerImg from "../../assets/award-banner-one.png";
 // import LogoImg from "../../assets/logo.png";
 import AwardRibbonImg from "../../assets/award-ribbon.jpg";
-
 import BackgroundSrc from "../../assets/tie-dye-banner.jpg";
 
 
@@ -29,6 +28,67 @@ export const TitleContainer = styled.section`
     height: 23vh;
     text-align: left;
     align-items: flex-start;
+  }
+`;
+
+export const Announcement = styled.div`
+  width: 70vw;
+  max-width: 900px;
+  /* background-color: rgba(128, 0, 128, 0.08); */
+  border-radius: 0.75rem;
+  margin: 3rem auto;
+  padding: 2rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+
+  text-align: center;
+  /* box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08); */
+
+  h2 {
+    font-size: 1.8rem;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    margin: 0;
+  }
+
+  p {
+    max-width: 500px;
+    color: #444;
+    line-height: 1.5;
+    margin: 0;
+  }
+
+  img {
+    width: 100%;
+    max-width: 600px;
+    padding: 1rem;
+    background: white;
+    border-radius: 0.5rem;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+  }
+
+  @media (max-width: 550px) {
+    width: 90vw;
+    padding: 1.5rem;
+
+    h2 {
+      font-size: 1.4rem;
+    }
+  }
+`;
+
+export const AwardBanner = styled.img.attrs({
+  src: `${AwardBannerImg}`,
+})`
+  width: 60vw;
+  padding: 1rem;
+
+  @media (max-width: 992px) {
+    width: 70vw;
+    padding: 0.5rem;
   }
 `;
 
@@ -174,32 +234,6 @@ export const ServiceTitle = styled.h1`
 export const BusImage = styled.img`
   width: 100vw;
 `
-
-export const AwardBanner = styled.img.attrs({
-  src: `${AwardBannerImg}`,
-})`
-  width: 60vw;
-  padding: 1rem;
-
-  @media (max-width: 992px) {
-    width: 70vw;
-    padding: 0.5rem;
-  }
-`;
-
-export const AnnouncementContainer = styled.div`
-  display: block;
-  width: 70vw;
-  background-color: rgba(128, 0, 128, 0.1);
-  border-radius: .4rem;
-  margin-top: 3rem;
-  padding: 1rem;
-  font-size: larger;
-
-  @media (max-width: 550px) {
-    margin-top: 10rem;
-  }
-`;
 
 export const PawIcon = styled.i.attrs({ className: "fa-solid fa-paw" })`
   color: #403f3c;
